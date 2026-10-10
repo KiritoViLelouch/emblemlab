@@ -76,3 +76,9 @@ Phase 4 adds `GET /api/v1/reforge/rules` and `POST /api/v1/reforge/analyze`, plu
 ## 分享给朋友测试
 
 已上线：[GitHub 测试网站](https://kiritovilelouch.github.io/emblemlab/)，[Render 备用入口](https://emblemlab.onrender.com/)。Python 求解器独立运行于 Render Free，电脑关机后仍可访问；闲置后的第一次请求可能需要等待冷启动。当前仅开放固定版本 TFT，金铲铲尚未开放。发布方式、实际测试和限制见 [部署说明](docs/DEPLOYMENT.md)。
+
+## JCC 审核启用与拉克丝对照
+
+JCC 当前状态 **BLOCKED**：尚无获得公开发布授权的完整真实版本数据，实际导入为 **0 棋子 / 0 羁绊 / 0 纹章**。已实现 CSV/XLSX/规范化 JSON → 独立审核 → 固定快照 → 原子启用/回滚 → 目录/API/前端的完整软件流程；不能把合成测试通过视为 JCC 已上线。来源核查见 [JCC_SOURCE_AUDIT.md](docs/JCC_SOURCE_AUDIT.md)，操作见 [JCC_IMPORT_GUIDE.md](docs/JCC_IMPORT_GUIDE.md)，结果见 [JCC_VALIDATION_REPORT.md](docs/JCC_VALIDATION_REPORT.md)。
+
+TFT 页面默认“不带拉克丝”；可选择已获得的指定羁绊形态，或点击“计算不带 / 带指定拉克丝两版”。两版各用真实 CP-SAT 求解并可加入对比。五费卡及指定形态不保证可获得，结果是各自假设下的规则估分；不计算 D 牌概率。

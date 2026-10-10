@@ -17,3 +17,6 @@ out/
 .DS_Store
 
 *.log
+data/active/.activation.lock
+data/active/.index-*
+data/.approval-*

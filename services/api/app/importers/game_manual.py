@@ -33,6 +33,9 @@ COLUMNS = [
     "mode",
     "unsupported_reason",
 ]
+LEGACY_COLUMNS = COLUMNS.copy()
+COLUMNS += ["aliases", "board_slots", "item_slots", "trait_weights", "exclusive_group",
+            "banned_holders", "allow_native"]
 MAX_BYTES = 2 * 1024 * 1024
 
 
@@ -48,6 +51,14 @@ class ManualMetadata(Strict):
     license_status: str = Field(pattern="^(original|authorized|unknown)$")
     attribution: str = Field(min_length=1, max_length=1000)
     required_champion_ids: list[str] = Field(min_length=1, max_length=500)
+    source_version: str = "unreviewed"
+    release_date: str | None = None
+    allow_duplicate_emblems: bool = False
+    allow_unused_emblems: bool = True
+    max_same_emblem_per_holder: int = Field(default=1, ge=1, le=3)
+    capacity_bonuses: list[dict] = Field(default_factory=list)
+    trait_count_limits: dict[str, int] = Field(default_factory=dict)
+    incompatible_trait_pairs: list[tuple[str, str]] = Field(default_factory=list)
 
 
 def parse_rows(content, filename):
@@ -81,17 +92,17 @@ def parse_rows(content, filename):
             workbook.close()
     else:
         raise ValueError("Only UTF-8 CSV / XLSX supported")
-    if not rows or len(rows) > 1001 or rows[0] != COLUMNS:
+    if not rows or len(rows) > 1001 or rows[0] not in (COLUMNS, LEGACY_COLUMNS):
         raise ValueError("Missing/invalid header or too many rows")
     result = []
     for values in rows[1:]:
         if not any(values):
             continue
-        if len(values) != len(COLUMNS) or any(
+        if len(values) != len(rows[0]) or any(
             len(v) > 4000 or "\x00" in v or v.lstrip().startswith(("=", "@", "+")) for v in values
         ):
             raise ValueError("Invalid text row or spreadsheet formula")
-        result.append(dict(zip(COLUMNS, (v.strip() for v in values))))
+        result.append({**dict.fromkeys(COLUMNS, ""), **dict(zip(rows[0], (v.strip() for v in values)))})
     if not result:
         raise ValueError("No records to validate")
     return result
@@ -122,6 +133,7 @@ def import_manual(content, filename, metadata):
             en_US=row["en_US"],
             icon_path=row["icon_url"],
             verification_evidence=evidence,
+            aliases=row["aliases"].split("|") if row["aliases"] else [],
         )
         entity["verification_status"] = state.lower()
         verified = state == "VERIFIED"
@@ -131,6 +143,10 @@ def import_manual(content, filename, metadata):
                 traits=row["trait_ids"].split("|") if row["trait_ids"] else [],
                 available=verified and not row["unsupported_reason"],
                 unlock_condition=row["unsupported_reason"] or None,
+                board_slots=int(row["board_slots"] or "1"),
+                item_slots=int(row["item_slots"] or "3"),
+                trait_weights=json.loads(row["trait_weights"] or "{}"),
+                exclusive_group=row["exclusive_group"] or None,
             )
         elif row["entity_type"] == "trait":
             counts = [int(v) for v in row["thresholds"].split("|")] if row["thresholds"] else []
@@ -140,7 +156,11 @@ def import_manual(content, filename, metadata):
                 special_conditions=row["unsupported_reason"] or (None if verified else "Unverified manual mechanic"),
             )
         else:
-            entity.update(trait_id=row["trait_id"], available=verified and not row["unsupported_reason"])
+            if row["allow_native"] not in ("", "true", "false"):
+                raise ValueError(f"Row {number}: allow_native must be true/false")
+            entity.update(trait_id=row["trait_id"], available=verified and not row["unsupported_reason"],
+                          banned_holders=row["banned_holders"].split("|") if row["banned_holders"] else [],
+                          allow_native=row["allow_native"] == "true")
         groups[row["entity_type"]].append(entity)
         reviewers.append(dict(row=number, id=row["id"], reviewer=row["reviewer"], evidence=evidence))
     fully_reviewed = all(r["verification_status"].upper() == "VERIFIED" for r in rows)
@@ -148,7 +168,7 @@ def import_manual(content, filename, metadata):
         source_kind="manual_review",
         set_name=metadata.set_name,
         resource_patch=metadata.patch,
-        build_version="manual",
+        build_version=metadata.source_version,
         last_verified_at=imported if fully_reviewed else None,
         live_as_of=None,
         optimization_enabled=False,
@@ -184,8 +204,12 @@ def import_manual(content, filename, metadata):
         champions=groups["champion"],
         traits=groups["trait"],
         emblems=groups["emblem"],
-        allow_duplicate_emblems=False,
-        allow_unused_emblems=True,
+        allow_duplicate_emblems=metadata.allow_duplicate_emblems,
+        allow_unused_emblems=metadata.allow_unused_emblems,
+        max_same_emblem_per_holder=metadata.max_same_emblem_per_holder,
+        capacity_bonuses=metadata.capacity_bonuses,
+        trait_count_limits=metadata.trait_count_limits,
+        incompatible_trait_pairs=metadata.incompatible_trait_pairs,
         license_status=metadata.license_status,
         data_readiness=readiness,
     )

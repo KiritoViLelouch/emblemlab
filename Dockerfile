@@ -12,6 +12,8 @@ COPY services/api/requirements.lock.txt /tmp/requirements.lock.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.lock.txt
 COPY services/api/app services/api/app
 COPY data/catalogs data/catalogs
+COPY data/active data/active
+COPY data/approved data/approved
 COPY --from=web /web/.next-export /srv/emblemlab/public
 ENV PUBLIC_WEB_DIR=/srv/emblemlab/public
 # Non-root runtime; the public profile blocks database/import routes.

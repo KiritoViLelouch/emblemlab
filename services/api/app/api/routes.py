@@ -6,6 +6,7 @@ from app.reforge.service import simulate
 from app.reforge.schemas import AnalysisRequest
 from app.reforge.rules import get_rule, rules_for
 from app.reforge.analyzer import analyze
+from app.repositories.catalog import catalog_issues
 
 router = APIRouter()
 
@@ -40,6 +41,7 @@ def games(include_synthetic: bool = True):
                     "ruleset_id": d.id,
                     "name": d.zh_CN,
                     "set": d.set,
+                    "mode": d.mode,
                     "verification_state": d.verification_status.upper(),
                     "optimization_enabled": not d.data_readiness or d.data_readiness.optimization_enabled,
                 }
@@ -120,6 +122,7 @@ def reforge(request: ReforgeRequest):
 @router.get("/api/v1/data-health")
 def data_health():
     return dict(
+        catalog_activation_issues=catalog_issues(),
         current_patch_verified=False,
         statistics_available=False,
         assets_included=False,

@@ -14,6 +14,12 @@ CORE_TFT_CHECKS = {
     "emblem_associations",
     "source_snapshots_and_icons",
 }
+CORE_JCC_CHECKS = {
+    "set_patch_mode", "canonical_roster_cost_locales", "native_trait_relationships",
+    "monotonic_trait_thresholds", "emblem_associations", "population_and_capacity",
+    "holder_and_equipment_restrictions", "duplicate_emblem_policy", "unique_units_and_unlocks",
+    "special_mechanics_scope", "source_permission_and_provenance",
+}
 
 
 def validate_catalog(raw):
@@ -27,6 +33,9 @@ def validate_catalog(raw):
         if not dataset.data_readiness:
             issues.append("Real catalogs require readiness metadata")
         for entity in [*dataset.champions, *dataset.traits, *dataset.emblems]:
+            # Artwork is optional; absence must not block factual JCC count analysis.
+            if dataset.game == "JCC" and not entity.icon_path:
+                continue
             url = urlparse(entity.icon_path or "")
             if (
                 url.scheme != "https"
@@ -56,6 +65,8 @@ def validate_catalog(raw):
                 issues.append("Essential rule evidence missing")
             if dataset.game == "TFT" and not CORE_TFT_CHECKS <= {r.id for r in readiness.rule_checks if r.essential}:
                 issues.append("Missing essential TFT rules")
+            if dataset.game == "JCC" and not CORE_JCC_CHECKS <= {r.id for r in readiness.rule_checks if r.essential}:
+                issues.append("Missing essential JCC rules")
             if (
                 not readiness.required_champion_ids
                 or not readiness.snapshots

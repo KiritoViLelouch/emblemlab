@@ -1,0 +1,30 @@
+{
+  "executedAt": "2026-10-10T12:41:43.500Z",
+  "jccState": {
+    "url": "http://127.0.0.1:3000/",
+    "state": "STRATEGY / CONSTRAINTS / POSSIBILITIES\n三枚纹章，\n探索更多阵容可能。\n\n以约束求解发现组合，以透明规则解释选择。\n你的离线纹章策略工作台。\n\n本游戏尚无已审核的真实数据集，优化已禁用。\n人工 CSV / XLSX 校验 →\n配置实验\n01 / INPUT\n显示开发用合成数据\n游戏\nTFT 国际服\n金铲铲之战 · 暂无已审核版本\n版本\n规则集\n纹章实例\n最多 3 枚\n01\n选择纹章\n锁定\n02\n选择纹章\n锁定\n03\n选择纹章\n锁定\n锁定用于保留子集与重铸分析；允许重复：未核验。允许闲置纹章；原生持有者禁用，属于保守搜索限制。\n基础人口上限（按占用人口填满）\n7\n8\n9\n10\n优化目标\n最多激活羁绊\n最高羁绊档位价值\n均衡阵容估分\n低成本阵容\n后期理论上限\n高级约束 · 锁定 0 / 排除 0\n\n8 基础人口 · 单卡 ≤ 5 金币 · Top 5 · 至少替换 2 人 · 总求解限时 5 秒 · 每人最多 3 个物品槽\n\n开始优化 →\n保留子集分析\n持有者推荐\n02 / OUTPUT\n候选阵容\nCP-SAT · 实际求解\n⬡\n让每一枚纹章都有意义\n\n选择游戏、纹章和优化目标，\n查看满足约束的多样化阵容。\n\n真实约束求解 / 可解释估分 / 游戏数据隔离",
+    "solveEnabled": false,
+    "layout": {
+      "scrollWidth": 412,
+      "width": 412
+    }
+  },
+  "realJccAcceptance": "BLOCKED: no authorized real dataset",
+  "localTft": {
+    "threeEmblemLuxComparison": "two FEASIBLE results; first excludes Lux; second contains selected Blossom Lux",
+    "comparisonSaveAndNavigate": "passed",
+    "desktop": {
+      "width": 1280,
+      "scrollWidth": 1280
+    },
+    "iphone": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "android": {
+      "width": 412,
+      "scrollWidth": 412
+    },
+    "consoleErrorsAtComparison": []
+  }
+}

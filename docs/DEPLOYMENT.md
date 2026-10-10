@@ -75,3 +75,11 @@ STATIC_EXPORT=true NEXT_PUBLIC_PUBLIC_DEMO=true NEXT_PUBLIC_BASE_PATH=/emblemlab
 - [Next 静态导出](https://nextjs.org/docs/app/guides/static-exports)
 - [Render Free 限制](https://render.com/docs/free)
 - [Render Blueprint](https://render.com/docs/blueprint-spec)
+
+## JCC registry / Lux release follow-up
+
+Feature branch `codex/jcc-catalog-activation` starts at `ade8717`; pre-change Render commit is `43f448d0fee19c8de3d701aa593acc04aadde822`, pre-change Pages artifact commit `aa86ca82521f2ad27070429713ddc417fcaafd8b`. `docs/evidence/jcc_prechange_baseline.json` records the actual public TFT three-emblem response before changes. Source TFT JSON and fixtures were not edited.
+
+The image now includes `data/active/` and `data/approved/`. Promote JCC only offline after explicit review; commit artifacts, registry and history together. No runtime SQLite activation or ephemeral Render write is required. JCC stays unavailable while the registry is empty. Public mode permits approved games and continues to reject imports/admin/statistics/reforge.
+
+Code rollback: explicitly deploy Render commit `43f448d0fee19c8de3d701aa593acc04aadde822`. Pages rollback: restore files from `aa86ca82521f2ad27070429713ddc417fcaafd8b` into a **new** `codex/pages-static` commit and push normally (do not reset or force-push history). Registry-only rollback uses the offline command in JCC_IMPORT_GUIDE.md followed by a normal source commit/deploy.

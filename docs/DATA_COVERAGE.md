@@ -43,3 +43,9 @@ VERIFIED means the stated static field/count rule has evidence within the declar
 An unverified essential rule, unverified enabled entity, unsupported dependency, bad relationship or invalid/version-mismatched icon disables a real catalog. Out-of-profile unknown mechanics are blocked by explicit restrictions rather than silently scored. Legacy API defaults remain synthetic to preserve consumers; the frontend explicitly requests `include_synthetic=false`, defaults to the real TFT catalog, and provides a development opt-in. JCC's real version list is empty and its optimization controls are disabled.
 
 JCC: **no real records imported, not fully supported**. Manual CSV/XLSX validation and draft download work; rule/roster/license review is still required. Community recommendations and statistical observations remain separate stores, unchanged by this milestone. No statistical or reforge EV work was added.
+
+## JCC activation follow-up (2026-10-10)
+
+JCC remains **BLOCKED: 0 real champions / 0 traits / 0 emblems / 0 approved rulesets**. The reusable import → independent review → immutable artifact → atomic registry → API → frontend integration is implemented. Public mode discovers any successfully approved real JCC registry entry; there is no longer a TFT-only hardcode. No JCC game facts have been copied from TFT or from provider tables. See [source audit](JCC_SOURCE_AUDIT.md), [coverage](JCC_RULESET_COVERAGE.md), [operator workflow](JCC_IMPORT_GUIDE.md) and [actual validation](JCC_VALIDATION_REPORT.md).
+
+TFT catalog facts/counts are unchanged. UI now defaults to excluding Lux and offers a fixed-origin with/without comparison. Lux remains a five-cost unit; her origin count applies only when that specific form is assumed available. FEASIBLE still means a valid timeout-limited candidate, not proven optimal or reliably obtainable.
