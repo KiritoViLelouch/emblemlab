@@ -20,3 +20,4 @@ out/
 data/active/.activation.lock
 data/active/.index-*
 data/.approval-*
+data/meta/catalogs/.stage-*/

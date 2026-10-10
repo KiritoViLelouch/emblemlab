@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "provider_id": "emblemlab-local-example",
+  "source_version": "original-structural-example-18.4-v1",
+  "scope": {
+    "game_id": "TFT",
+    "ruleset_id": "tft_set18_18_4_standard",
+    "patch": "18.4",
+    "set_id": "18",
+    "mode": "standard"
+  },
+  "data_kind": "manual_scenario"
+}

@@ -2,16 +2,29 @@ from time import monotonic
 from ortools.sat.python import cp_model
 from app.rules.evaluator import FixtureRules
 from app.scoring.engine import WEIGHTS, score
+from app.optimizer.adaptation import PRIORITIES, lexicographic_solve
 
 RULES = FixtureRules()
 
 
-def solve(dataset, request):
+def solve(dataset, request, *, adaptation=None):
+    adaptation_start = monotonic()
     RULES.validate(dataset, request)
+    if adaptation:
+        adaptation.validate(dataset)
+        if request.top_k != 1:
+            raise ValueError("Adaptation solves one optimum per exact neighborhood")
     model = cp_model.CpModel()
     units = dataset.champions
     emblems = {e.id: e for e in dataset.emblems}
     x = {c.id: model.new_bool_var(c.id) for c in units}
+    if adaptation:
+        original = set(adaptation.original_ids)
+        model.add(sum(x[uid] for uid in original) == len(original) - adaptation.replacements)
+        model.add(sum(x[c.id] for c in units if c.id not in original) == adaptation.replacements)
+        if adaptation.preserve_core:
+            for uid in adaptation.core_ids:
+                model.add(x[uid] == 1)
     for group in {c.exclusive_group for c in units if c.exclusive_group}:
         model.add(sum(x[c.id] for c in units if c.exclusive_group == group) <= 1)
     for c in units:
@@ -38,7 +51,8 @@ def solve(dataset, request):
         else:
             model.add(equipped == 1)
     for c in units:
-        model.add(sum(y[c.id, e] for e in range(len(request.emblem_ids))) <= c.item_slots)
+        reserved = adaptation.reserved_slots.get(c.id, 0) if adaptation else 0
+        model.add(sum(y[c.id, e] for e in range(len(request.emblem_ids))) <= c.item_slots - reserved)
         for eid in set(request.emblem_ids):
             model.add(
                 sum(y[c.id, e] for e, v in enumerate(request.emblem_ids) if v == eid)
@@ -84,25 +98,44 @@ def solve(dataset, request):
         model.add(trait_counts[a] == 0).only_enforce_if(absent)
         model.add(trait_counts[b] == 0).only_enforce_if(absent.Not())
     weights = WEIGHTS[request.objective]
-    model.maximize(
-        weights[0] * sum(active)
-        + weights[1] * sum(utility)
-        + weights[2] * sum(c.cost * x[c.id] for c in units)
-        + weights[3] * sum(y.values())
-    )
+    if not adaptation:
+        model.maximize(
+            weights[0] * sum(active)
+            + weights[1] * sum(utility)
+            + weights[2] * sum(c.cost * x[c.id] for c in units)
+            + weights[3] * sum(y.values())
+        )
     candidates = []
-    start = monotonic()
+    start = adaptation_start if adaptation else monotonic()
     terminal = "UNKNOWN"
+    lex_stages, lex_complete = [], False
     for rank in range(request.top_k):
         remaining = request.timeout_seconds - (monotonic() - start)
         if remaining <= 0:
             terminal = "UNKNOWN"
             break
-        solver = cp_model.CpSolver()
-        solver.parameters.max_time_in_seconds = remaining
-        solver.parameters.num_search_workers = 1
-        solver.parameters.random_seed = 0
-        status = solver.solve(model)
+        if adaptation:
+            metrics = dict(equipped_emblems=sum(y.values()), core_preserved=sum(x[uid] for uid in adaptation.core_ids),
+                           breakpoint_utility=sum(utility), active_traits=sum(active),
+                           negative_replacements=-adaptation.replacements)
+            expressions = [(key, metrics[key]) for key in PRIORITIES[adaptation.ranking]]
+            if adaptation.preferred_pairs:
+                pairs = set(adaptation.preferred_pairs)
+                expressions.append(("source_holder_preference", sum(
+                    v for (uid, eidx), v in y.items() if (request.emblem_ids[eidx], uid) in pairs
+                )))
+            solver, status, lex_stages, lex_complete = lexicographic_solve(model, expressions, remaining)
+            if solver is None:
+                terminal = "UNKNOWN"
+                break
+            if status == cp_model.OPTIMAL and not lex_complete:
+                status = cp_model.FEASIBLE
+        else:
+            solver = cp_model.CpSolver()
+            solver.parameters.max_time_in_seconds = remaining
+            solver.parameters.num_search_workers = 1
+            solver.parameters.random_seed = 0
+            status = solver.solve(model)
         terminal = solver.status_name(status)
         if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
             break
@@ -119,6 +152,16 @@ def solve(dataset, request):
             if solver.value(y[c.id, e])
         ]
         RULES.validate_solution(dataset, request, selected, assignments)
+        if adaptation:
+            removed = set(adaptation.original_ids) - set(selected)
+            added = set(selected) - set(adaptation.original_ids)
+            if len(removed) != adaptation.replacements or len(added) != adaptation.replacements:
+                raise RuntimeError("Post-solve replacement mismatch")
+            if adaptation.preserve_core and not set(adaptation.core_ids) <= set(selected):
+                raise RuntimeError("Post-solve core mismatch")
+            for uid, reserved in adaptation.reserved_slots.items():
+                if reserved + sum(a["champion_id"] == uid for a in assignments) > next(c.item_slots for c in units if c.id == uid):
+                    raise RuntimeError("Post-solve occupied item slot mismatch")
         traits = RULES.evaluate(dataset, selected, assignments)
         champions = [c for c in units if c.id in selected]
         candidates.append(
@@ -134,6 +177,7 @@ def solve(dataset, request):
                 solver_status=terminal,
                 objective_value=solver.objective_value,
                 best_bound=solver.best_objective_bound,
+                **({"lexicographic_stages": lex_stages, "lexicographic_complete": lex_complete} if adaptation else {}),
             )
         )
         model.add(sum(x[u] for u in selected) <= len(selected) - request.min_champion_distance)

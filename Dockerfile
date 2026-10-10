@@ -14,6 +14,7 @@ COPY services/api/app services/api/app
 COPY data/catalogs data/catalogs
 COPY data/active data/active
 COPY data/approved data/approved
+COPY data/meta data/meta
 COPY --from=web /web/.next-export /srv/emblemlab/public
 ENV PUBLIC_WEB_DIR=/srv/emblemlab/public
 # Non-root runtime; the public profile blocks database/import routes.

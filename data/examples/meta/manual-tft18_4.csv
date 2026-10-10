@@ -1,0 +1,2 @@
+id,name,champion_ids,board_size,core_carry_ids,core_tank_ids,non_emblem_item_slots,baseline_emblem_ids,baseline_assignments,source_tier,tier_citation,reviewed_at,holder_preferences
+structural-example,手工结构测试阵容：不代表 S/A 等级,DA_18_Ahri|DA_18_Alune|DA_18_Shen|DA_18_MasterYi_AD|DA_18_Sett|DA_18_Ornn|DA_Draven18|DA_KogMaw18_AD,8,DA_Draven18,DA_18_Ornn,"{""DA_Draven18"": 3, ""DA_18_Ornn"": 2}",,[],,,2026-10-10T00:00:00Z,[]

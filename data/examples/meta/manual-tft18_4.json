@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "provider_id": "emblemlab-local-example",
+  "source_version": "original-structural-example-18.4-v1",
+  "scope": {
+    "game_id": "TFT",
+    "ruleset_id": "tft_set18_18_4_standard",
+    "patch": "18.4",
+    "set_id": "18",
+    "mode": "standard"
+  },
+  "data_kind": "manual_scenario",
+  "compositions": [
+    {
+      "id": "structural-example",
+      "name": "手工结构测试阵容：不代表 S/A 等级",
+      "champion_ids": [
+        "DA_18_Ahri", "DA_18_Alune", "DA_18_Shen", "DA_18_MasterYi_AD",
+        "DA_18_Sett", "DA_18_Ornn", "DA_Draven18", "DA_KogMaw18_AD"
+      ],
+      "board_size": 8,
+      "core_carry_ids": ["DA_Draven18"],
+      "core_tank_ids": ["DA_18_Ornn"],
+      "non_emblem_item_slots": {"DA_Draven18": 3, "DA_18_Ornn": 2},
+      "baseline_emblem_ids": [],
+      "baseline_assignments": [],
+      "source_tier": null,
+      "tier_citation": null,
+      "reviewed_at": "2026-10-10T00:00:00Z",
+      "holder_preferences": []
+    }
+  ]
+}

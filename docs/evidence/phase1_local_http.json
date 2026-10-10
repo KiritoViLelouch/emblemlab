@@ -1,0 +1,6189 @@
+{
+  "executed_at": "2026-10-10T13:30:22.573560+00:00",
+  "kind": "local_actual_http_and_cp_sat",
+  "data_kind": "manual_scenario",
+  "real_meta_tier_evidence": false,
+  "real_jcc_test": false,
+  "static_source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+  "snapshot_verification": "partially_verified",
+  "example_sha256": "cc358ac85cf79ebead3581b852fd541987390bea901c98b2330653dc0c6ee30a",
+  "csv_and_json_cli_imports": "passed; equivalent normalized records, separately archived originals",
+  "retention": {
+    "http": 200,
+    "request": {
+      "scope": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "patch": "18.4",
+        "set_id": "18",
+        "mode": "standard"
+      },
+      "board_size": 8,
+      "emblem_ids": [
+        "DA_18_EmblemBrawler",
+        "DA_18_EmblemBlossom",
+        "DA_18_EmblemElderwood"
+      ],
+      "composition_keys": [
+        "emblemlab-local-example:structural-example"
+      ],
+      "include_manual_scenarios": true,
+      "replacement_counts": [
+        0,
+        1,
+        2
+      ],
+      "timeout_seconds": 30,
+      "per_case_timeout_seconds": 1,
+      "constraints": {
+        "banned_units": [
+          "DA_18_Lux_Coven",
+          "DA_18_Lux_Elderwood",
+          "DA_18_Lux_Fae",
+          "DA_18_Lux_Inferno",
+          "DA_18_Lux_Moonbeam",
+          "DA_18_Lux_Primal",
+          "DA_18_Lux_Sunbeam",
+          "DA_Lux18_Base",
+          "DA_Lux18_Blackthorn",
+          "DA_Lux18_Blossom"
+        ]
+      },
+      "include_empty_baseline": true
+    },
+    "response": {
+      "status": "CANDIDATES_FOUND",
+      "scope": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "patch": "18.4",
+        "set_id": "18",
+        "mode": "standard"
+      },
+      "search_coverage": {
+        "requested_cases": 24,
+        "attempted_cases": 24,
+        "all_requested_cases_resolved": true
+      },
+      "strategies": [
+        {
+          "retained_indices": [
+            0,
+            1,
+            2
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "not_retained_instances": [],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-012/replace-0",
+              "elapsed_seconds": 0.046229208004660904
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-012/replace-1",
+              "elapsed_seconds": 0.11110220800037496
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-012/replace-2",
+              "elapsed_seconds": 0.1624151249998249
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        },
+        {
+          "retained_indices": [
+            0,
+            1
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "not_retained_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-01/replace-0",
+              "elapsed_seconds": 0.03954162501031533
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-01/replace-1",
+              "elapsed_seconds": 0.08496899998863228
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-01/replace-2",
+              "elapsed_seconds": 0.13977170799626037
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        },
+        {
+          "retained_indices": [
+            0,
+            2
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "not_retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-02/replace-0",
+              "elapsed_seconds": 0.039763040986144915
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-02/replace-1",
+              "elapsed_seconds": 0.07497520800097845
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-02/replace-2",
+              "elapsed_seconds": 0.13622050001868047
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        },
+        {
+          "retained_indices": [
+            1,
+            2
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "not_retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-12/replace-0",
+              "elapsed_seconds": 0.03997758298646659
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-12/replace-1",
+              "elapsed_seconds": 0.0741365410212893
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-12/replace-2",
+              "elapsed_seconds": 0.1931657079840079
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        },
+        {
+          "retained_indices": [
+            0
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "not_retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-0/replace-0",
+              "elapsed_seconds": 0.036616291996324435
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-0/replace-1",
+              "elapsed_seconds": 0.053978165989974514
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-0/replace-2",
+              "elapsed_seconds": 0.10999862500466406
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        },
+        {
+          "retained_indices": [
+            1
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "not_retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-1/replace-0",
+              "elapsed_seconds": 0.035755959019297734
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-1/replace-1",
+              "elapsed_seconds": 0.07756908400915563
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-1/replace-2",
+              "elapsed_seconds": 0.10167666699271649
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        },
+        {
+          "retained_indices": [
+            2
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "not_retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-2/replace-0",
+              "elapsed_seconds": 0.03563054199912585
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-2/replace-1",
+              "elapsed_seconds": 0.06827491597505286
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-2/replace-2",
+              "elapsed_seconds": 0.15237387499655597
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        },
+        {
+          "retained_indices": [],
+          "retained_instances": [],
+          "not_retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-none/replace-0",
+              "elapsed_seconds": 0.032236167025985196
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-none/replace-1",
+              "elapsed_seconds": 0.048086791997775435
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-none/replace-2",
+              "elapsed_seconds": 0.1393584580218885
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        }
+      ],
+      "pareto_frontier_ids": [
+        "emblemlab-local-example:structural-example/keep-012/replace-2",
+        "emblemlab-local-example:structural-example/keep-012/replace-1",
+        "emblemlab-local-example:structural-example/keep-012/replace-0"
+      ],
+      "elapsed_seconds": 2.0549818750005215,
+      "candidates": [
+        {
+          "id": "emblemlab-local-example:structural-example/keep-012/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [],
+          "structural_metrics": {
+            "equipped_emblems": 3,
+            "replacements": 2,
+            "breakpoint_utility": 10,
+            "active_traits": 10,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_Fiddlesticks18",
+            "DA_Taric18"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri",
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Alune",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_MasterYi_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 2
+            },
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Vanguard",
+              "before": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_Emerald18",
+              "before": {
+                "id": "DA_Emerald18",
+                "name": "宝石骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_Emerald18",
+                "name": "宝石骑士",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": true,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-012/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [],
+          "structural_metrics": {
+            "equipped_emblems": 3,
+            "replacements": 1,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_LeBlanc"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Alune",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_Alune",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 2
+            },
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_MasterYi_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 2,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": true,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-012/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [],
+          "structural_metrics": {
+            "equipped_emblems": 3,
+            "replacements": 0,
+            "breakpoint_utility": 8,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 2
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 4,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": true,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-01/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 2,
+            "breakpoint_utility": 10,
+            "active_traits": 10,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Maokai",
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri",
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Maokai",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Maokai_UniqueTrait",
+              "before": {
+                "id": "DA_18_Maokai_UniqueTrait",
+                "name": "远古树精",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Maokai_UniqueTrait",
+                "name": "远古树精",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_Juggernaut18",
+              "before": {
+                "id": "DA_Juggernaut18",
+                "name": "主宰",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_Juggernaut18",
+                "name": "主宰",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-12/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 2,
+            "breakpoint_utility": 10,
+            "active_traits": 10,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Alistar",
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri",
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_MasterYi_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 2,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-01/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 1,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Akali_AD"
+          ],
+          "champions_removed": [
+            "DA_18_MasterYi_AD"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_Alune",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Slayer",
+              "before": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-02/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 1,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_Ahri",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Spellweaver",
+              "before": {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-02/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 2,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Maokai",
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri",
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_Maokai",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Maokai_UniqueTrait",
+              "before": {
+                "id": "DA_18_Maokai_UniqueTrait",
+                "name": "远古树精",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Maokai_UniqueTrait",
+                "name": "远古树精",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_Juggernaut18",
+              "before": {
+                "id": "DA_Juggernaut18",
+                "name": "主宰",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_Juggernaut18",
+                "name": "主宰",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": -1,
+              "utility_delta": -1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-12/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 1,
+            "breakpoint_utility": 9,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Akali_AD"
+          ],
+          "champions_removed": [
+            "DA_18_Sett"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_Ahri",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Slayer",
+              "before": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Adaptor",
+              "before": {
+                "id": "DA_18_Adaptor",
+                "name": "魔战士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Adaptor",
+                "name": "魔战士",
+                "count": 3,
+                "active": true,
+                "level": 2,
+                "utility": 2,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-0/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 1,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Spellweaver",
+              "before": {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-0/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 2,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Zyra",
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Alune",
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_AluneUniqueTrait18",
+              "before": {
+                "id": "DA_AluneUniqueTrait18",
+                "name": "月华神女",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_AluneUniqueTrait18",
+                "name": "月华神女",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": -1,
+              "utility_delta": -1
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Lunar",
+              "before": {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_ZyraUniqueTrait",
+              "before": {
+                "id": "DA_18_ZyraUniqueTrait",
+                "name": "荆棘之兴",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_ZyraUniqueTrait",
+                "name": "荆棘之兴",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Summoner",
+              "before": {
+                "id": "DA_18_Summoner",
+                "name": "召唤师",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Summoner",
+                "name": "召唤师",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-1/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 2,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Kobuko",
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri",
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Sprykin",
+              "before": {
+                "id": "DA_18_Sprykin",
+                "name": "约德尔人和朋友",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Sprykin",
+                "name": "约德尔人和朋友",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-2/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 2,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Akali_AD",
+            "DA_18_Diana"
+          ],
+          "champions_removed": [
+            "DA_18_MasterYi_AD",
+            "DA_18_Sett"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_Shen",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Slayer",
+              "before": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 2,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Vanguard",
+              "before": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Lunar",
+              "before": {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": -2,
+              "level_delta": -1,
+              "utility_delta": -1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-1/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 1,
+            "breakpoint_utility": 9,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Akali_AD"
+          ],
+          "champions_removed": [
+            "DA_18_Sett"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Ornn",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Slayer",
+              "before": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Adaptor",
+              "before": {
+                "id": "DA_18_Adaptor",
+                "name": "魔战士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Adaptor",
+                "name": "魔战士",
+                "count": 3,
+                "active": true,
+                "level": 2,
+                "utility": 2,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-none/replace-2",
+          "retained_instances": [],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 0,
+            "replacements": 2,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_Akali_AD",
+            "DA_18_Diana"
+          ],
+          "champions_removed": [
+            "DA_18_MasterYi_AD",
+            "DA_18_Sett"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Slayer",
+              "before": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 2,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Vanguard",
+              "before": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Lunar",
+              "before": {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": -2,
+              "level_delta": -1,
+              "utility_delta": -1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-01/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 0,
+            "breakpoint_utility": 8,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 4,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-02/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 0,
+            "breakpoint_utility": 8,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-0/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 0,
+            "breakpoint_utility": 8,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-2/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 1,
+            "breakpoint_utility": 8,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_GnarSmall"
+          ],
+          "champions_removed": [
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_Ahri",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 2,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Sprykin",
+              "before": {
+                "id": "DA_18_Sprykin",
+                "name": "约德尔人和朋友",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Sprykin",
+                "name": "约德尔人和朋友",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Defender",
+              "before": {
+                "id": "DA_18_Defender",
+                "name": "护卫",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Defender",
+                "name": "护卫",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": -1,
+              "utility_delta": -1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-none/replace-1",
+          "retained_instances": [],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 0,
+            "replacements": 1,
+            "breakpoint_utility": 8,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_Fiddlesticks18"
+          ],
+          "champions_removed": [
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Spellweaver",
+              "before": {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-12/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 2,
+            "replacements": 0,
+            "breakpoint_utility": 7,
+            "active_traits": 7,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 4,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-1/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 0,
+            "breakpoint_utility": 7,
+            "active_traits": 7,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 4,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-2/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 1,
+            "replacements": 0,
+            "breakpoint_utility": 7,
+            "active_traits": 7,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-none/replace-0",
+          "retained_instances": [],
+          "unused_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "structural_metrics": {
+            "equipped_emblems": 0,
+            "replacements": 0,
+            "breakpoint_utility": 7,
+            "active_traits": 7,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [],
+          "trait_breakpoint_changes": [],
+          "pareto_frontier": false,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        }
+      ]
+    }
+  },
+  "adaptation": {
+    "http": 200,
+    "request": {
+      "scope": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "patch": "18.4",
+        "set_id": "18",
+        "mode": "standard"
+      },
+      "board_size": 8,
+      "emblem_ids": [
+        "DA_18_EmblemBrawler",
+        "DA_18_EmblemBlossom",
+        "DA_18_EmblemElderwood"
+      ],
+      "composition_keys": [
+        "emblemlab-local-example:structural-example"
+      ],
+      "include_manual_scenarios": true,
+      "replacement_counts": [
+        0,
+        1,
+        2
+      ],
+      "timeout_seconds": 30,
+      "per_case_timeout_seconds": 1,
+      "constraints": {
+        "banned_units": [
+          "DA_18_Lux_Coven",
+          "DA_18_Lux_Elderwood",
+          "DA_18_Lux_Fae",
+          "DA_18_Lux_Inferno",
+          "DA_18_Lux_Moonbeam",
+          "DA_18_Lux_Primal",
+          "DA_18_Lux_Sunbeam",
+          "DA_Lux18_Base",
+          "DA_Lux18_Blackthorn",
+          "DA_Lux18_Blossom"
+        ]
+      }
+    },
+    "response": {
+      "status": "CANDIDATES_FOUND",
+      "scope": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "patch": "18.4",
+        "set_id": "18",
+        "mode": "standard"
+      },
+      "search_coverage": {
+        "requested_cases": 3,
+        "attempted_cases": 3,
+        "all_requested_cases_resolved": true
+      },
+      "strategies": [
+        {
+          "retained_indices": [
+            0,
+            1,
+            2
+          ],
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "not_retained_instances": [],
+          "allowed": true,
+          "cases": [
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 0,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-012/replace-0",
+              "elapsed_seconds": 0.04528045898769051
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 1,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-012/replace-1",
+              "elapsed_seconds": 0.10918254201533273
+            },
+            {
+              "source_key": "emblemlab-local-example:structural-example",
+              "replacements": 2,
+              "status": "OPTIMAL",
+              "candidate_id": "emblemlab-local-example:structural-example/keep-012/replace-2",
+              "elapsed_seconds": 0.1630784579901956
+            }
+          ],
+          "status": "CANDIDATES_FOUND"
+        }
+      ],
+      "pareto_frontier_ids": [
+        "emblemlab-local-example:structural-example/keep-012/replace-2",
+        "emblemlab-local-example:structural-example/keep-012/replace-1",
+        "emblemlab-local-example:structural-example/keep-012/replace-0"
+      ],
+      "elapsed_seconds": 0.331335750001017,
+      "candidates": [
+        {
+          "id": "emblemlab-local-example:structural-example/keep-012/replace-2",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [],
+          "structural_metrics": {
+            "equipped_emblems": 3,
+            "replacements": 2,
+            "breakpoint_utility": 10,
+            "active_traits": 10,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_Fiddlesticks18",
+            "DA_Taric18"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri",
+            "DA_18_Shen"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Alune",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_MasterYi_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 2
+            },
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Inferno",
+              "before": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              "count_delta": -1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Vanguard",
+              "before": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_FloraFatalis18",
+              "before": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_Emerald18",
+              "before": {
+                "id": "DA_Emerald18",
+                "name": "宝石骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_Emerald18",
+                "name": "宝石骑士",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": true,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-012/replace-1",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [],
+          "structural_metrics": {
+            "equipped_emblems": 3,
+            "replacements": 1,
+            "breakpoint_utility": 9,
+            "active_traits": 9,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [
+            "DA_18_LeBlanc"
+          ],
+          "champions_removed": [
+            "DA_18_Ahri"
+          ],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_18_Alune",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_18_Alune",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 2
+            },
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_18_MasterYi_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 2,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            }
+          ],
+          "pareto_frontier": true,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        },
+        {
+          "id": "emblemlab-local-example:structural-example/keep-012/replace-0",
+          "retained_instances": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler"
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom"
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood"
+            }
+          ],
+          "unused_instances": [],
+          "structural_metrics": {
+            "equipped_emblems": 3,
+            "replacements": 0,
+            "breakpoint_utility": 8,
+            "active_traits": 8,
+            "core_preserved": 2,
+            "core_units_lost": 0
+          },
+          "champions_added": [],
+          "champions_removed": [],
+          "core_units_lost": [],
+          "solver_status": "OPTIMAL",
+          "lexicographic_complete": true,
+          "assignments": [
+            {
+              "instance_index": 0,
+              "emblem_id": "DA_18_EmblemBrawler",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": true,
+              "structural_effect": {
+                "active_trait_gain": 1,
+                "breakpoint_utility_gain": 1,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "structurally_useful",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 0
+            },
+            {
+              "instance_index": 1,
+              "emblem_id": "DA_18_EmblemBlossom",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 1
+            },
+            {
+              "instance_index": 2,
+              "emblem_id": "DA_18_EmblemElderwood",
+              "champion_id": "DA_KogMaw18_AD",
+              "explanation": "合法分配；结构作用按移除此实例后的差值计算。推荐是来源意见；统计仅描述精确上下文，不证明持有者最优。",
+              "legality": "legal",
+              "structurally_useful": false,
+              "structural_effect": {
+                "active_trait_gain": 0,
+                "breakpoint_utility_gain": 0,
+                "unique_contribution_gain": 1
+              },
+              "holder_classification": "legal",
+              "statistical_evidence_available": false,
+              "statistically_supported": false,
+              "statistical_support_basis": null,
+              "statistical_evidence": [],
+              "source_recommendations": [],
+              "optimal_holder_claim": false,
+              "solver_instance_index": 2
+            }
+          ],
+          "trait_breakpoint_changes": [
+            {
+              "trait_id": "DA_18_Elderwood",
+              "before": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 2,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            },
+            {
+              "trait_id": "DA_18_Brawler",
+              "before": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 1,
+              "utility_delta": 1
+            },
+            {
+              "trait_id": "DA_18_Blossom",
+              "before": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "after": {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 4,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              "count_delta": 1,
+              "level_delta": 0,
+              "utility_delta": 0
+            }
+          ],
+          "pareto_frontier": true,
+          "original_source_tier": null,
+          "adapted_tier": null,
+          "adapted_win_rate": null,
+          "statistical_evidence_available": false
+        }
+      ]
+    }
+  },
+  "independent_legality_population_items_and_trait_recount": "passed",
+  "default_registry_http_check": {
+    "http": 200,
+    "status": "MISSING_META_DATA",
+    "strategy_count": 8,
+    "active_meta_snapshots": 0
+  },
+  "local_startup_checks": {
+    "frontend": 200,
+    "backend_health": 200,
+    "new_openapi_routes": true
+  }
+}

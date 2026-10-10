@@ -82,3 +82,9 @@ Phase 4 adds `GET /api/v1/reforge/rules` and `POST /api/v1/reforge/analyze`, plu
 JCC 当前状态 **BLOCKED**：尚无获得公开发布授权的完整真实版本数据，实际导入为 **0 棋子 / 0 羁绊 / 0 纹章**。已实现 CSV/XLSX/规范化 JSON → 独立审核 → 固定快照 → 原子启用/回滚 → 目录/API/前端的完整软件流程；不能把合成测试通过视为 JCC 已上线。来源核查见 [JCC_SOURCE_AUDIT.md](docs/JCC_SOURCE_AUDIT.md)，操作见 [JCC_IMPORT_GUIDE.md](docs/JCC_IMPORT_GUIDE.md)，结果见 [JCC_VALIDATION_REPORT.md](docs/JCC_VALIDATION_REPORT.md)。
 
 TFT 页面默认“不带拉克丝”；可选择已获得的指定羁绊形态，或点击“计算不带 / 带指定拉克丝两版”。两版各用真实 CP-SAT 求解并可加入对比。五费卡及指定形态不保证可获得，结果是各自假设下的规则估分；不计算 D 牌概率。
+
+## 新增纹章策略任务 · Phase 1（本地 API）
+
+新增 `POST /api/v1/emblem-strategy/analyze` 与 `POST /api/v1/meta/adapt`：按实例比较保留 1/2/3 枚纹章（可加空基线），在来源阵容附近替换 0/1/2 人，默认保护主 C/主坦，检查装备占位，按明确多目标顺序求解并显示返回候选的 Pareto 前沿。未使用纹章与实际重铸分开，概率和 EV 为空；来源 S/A 等级不继承给适配阵容。
+
+支持独立授权的 CSV/JSON 阵容导入。**当前没有已授权的真实 S/A 阵容库，默认返回 MISSING_META_DATA**；附带的真实 TFT 棋子示例是无等级的手工结构测试，需要明确 opt-in。金铲铲真实数据仍受审核门控。新接口未部署且公开模式返回 403，本次任务的 Phase 2 未开始。见 [接口与导入格式](docs/EMBLEM_STRATEGY_ENGINE.md)、[算法](docs/META_ADAPTATION_ALGORITHM.md)、[执行验证](docs/PHASE1_VALIDATION.md)。

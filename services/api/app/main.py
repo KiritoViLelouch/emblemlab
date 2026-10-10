@@ -7,6 +7,7 @@ from app.api.routes import router
 from app.api.guides import router as guides_router
 from app.api.statistics import router as statistics_router
 from app.api.data_validation import router as data_router
+from app.api.meta import router as meta_router
 
 def create_app():
     app = FastAPI(title="EmblemLab", version="0.1.0", description="Versioned static-data strategy optimizer; scoped verification")
@@ -23,6 +24,7 @@ def create_app():
 
     app.include_router(statistics_router)
     app.include_router(data_router)
+    app.include_router(meta_router)
 
     # Optional all-in-one public host when GitHub Pages builds are unavailable.
     if os.getenv("PUBLIC_WEB_DIR"):

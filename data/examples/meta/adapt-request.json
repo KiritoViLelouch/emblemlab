@@ -1,0 +1,40 @@
+{
+  "scope": {
+    "game_id": "TFT",
+    "ruleset_id": "tft_set18_18_4_standard",
+    "patch": "18.4",
+    "set_id": "18",
+    "mode": "standard"
+  },
+  "board_size": 8,
+  "emblem_ids": [
+    "DA_18_EmblemBrawler",
+    "DA_18_EmblemBlossom",
+    "DA_18_EmblemElderwood"
+  ],
+  "composition_keys": [
+    "emblemlab-local-example:structural-example"
+  ],
+  "include_manual_scenarios": true,
+  "replacement_counts": [
+    0,
+    1,
+    2
+  ],
+  "timeout_seconds": 30,
+  "per_case_timeout_seconds": 1,
+  "constraints": {
+    "banned_units": [
+      "DA_18_Lux_Coven",
+      "DA_18_Lux_Elderwood",
+      "DA_18_Lux_Fae",
+      "DA_18_Lux_Inferno",
+      "DA_18_Lux_Moonbeam",
+      "DA_18_Lux_Primal",
+      "DA_18_Lux_Sunbeam",
+      "DA_Lux18_Base",
+      "DA_Lux18_Blackthorn",
+      "DA_Lux18_Blossom"
+    ]
+  }
+}
