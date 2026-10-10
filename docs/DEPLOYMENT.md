@@ -7,7 +7,7 @@
 保留现有 Next.js + FastAPI + OR-Tools CP-SAT。GitHub Pages 只托管静态前端，Python 后端必须独立运行，不能仅上传 HTML 就宣称优化器可用。
 
 - 前端：GitHub Pages，支持 `/仓库名/` 子路径和各页面直接打开。
-- 后端：`Dockerfile.api`，Python 3.12，固定依赖，真实 TFT 规范化快照，非 root 用户，单 Uvicorn worker。
+- 后端：`Dockerfile`，Python 3.12，固定依赖，真实 TFT 规范化快照，非 root 用户，单 Uvicorn worker。
 - `render.yaml` 提供可选 Render Free 后端配置；尚未创建服务或产生托管费用。免费服务闲置后休眠、首次请求有冷启动，实际内存/CPU适配仍须部署后验证。
 - 不依赖本机 SQLite、原始大快照、人工上传文件或本机路径。社区导入和统计 API 不对外开放。
 

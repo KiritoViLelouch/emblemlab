@@ -4,7 +4,7 @@ services:
     name: emblemlab-api
     runtime: docker
     plan: free
-    dockerfilePath: ./Dockerfile.api
+    dockerfilePath: ./Dockerfile
     healthCheckPath: /health
     envVars:
       - key: PUBLIC_DEMO
