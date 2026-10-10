@@ -55,3 +55,15 @@ GitHub 仓库根目录应为 **emblemlab 目录的内容**，包含 `.github/`�
 - Next 静态导出：https://nextjs.org/docs/app/guides/static-exports
 - Render Free 限制：https://render.com/docs/free
 - Render Blueprint：https://render.com/docs/blueprint-spec
+
+## 当前托管进展与备用同源部署
+
+已创建并上传到 https://github.com/KiritoViLelouch/emblemlab ，默认分支 `codex/friend-preview`。本地项目现在具有独立 Git 仓库，父目录仓库保持原状。
+
+GitHub Actions 返回：`The job was not started because your account is locked due to a billing issue.` 因此远程构建尚未执行。无需为本次测试开通付费方案。
+
+Dockerfile 同时构建 Next 静态网页，设置 `NEXT_PUBLIC_API_URL=same-origin`，由 FastAPI 在 API 路由之后挂载网页；`PUBLIC_WEB_DIR` 显式启用静态服务。Render 免费服务因此可直接提供完整测试站，不依赖 GitHub Actions 或本机在线。GitHub Pages 独立前端工作流仍保留，可在账号构建恢复后使用。页面和资源放在固定目录，数据快照/数据库不会作为网页文件发布。
+
+公开模式仅放行固定页面和 `/_next/` 资源，管理与写入 API 继续关闭。GitHub Pages 构建仍需实际 HTTPS API；只有同源 Docker 构建使用显式 `same-origin` 配置。
+
+同源方案本地复验：后端 294 passed，Ruff、前端 typecheck/lint/build 通过；6 个页面及 health HTTP 200，真实三纹章求解 FEASIBLE，21 个构建脚本均不含本机 API 地址。见 `evidence/same_origin_preview_http.json`。浏览器视觉验收仍未通过工具执行，不以 HTTP 检查替代。

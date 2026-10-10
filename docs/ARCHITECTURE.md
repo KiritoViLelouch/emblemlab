@@ -22,3 +22,5 @@ The UI opts out of synthetic catalogs by default, handles empty JCC versions, an
 ## 朋友公开测试部署（2026-10-10）
 
 用户授权将现有 TFT 版本发布到 GitHub 网站。选择 GitHub Pages 静态导出 + 独立 Python 后端，不替换 CP-SAT、不将结果预计算成演示数据。公开模式用环境变量显式启用，服务端独立限制接口、目录、求解预算和并发；本地默认行为保留。部署文件和未执行的远程验收见 `DEPLOYMENT.md`。托管账户未就绪时不能宣称已上线。
+
+GitHub Actions 首次运行因账户计费状态被平台拒绝启动（无 job steps）。为保留免费可分享的测试路径，Docker 多阶段构建现有 Next 静态页面，并由 FastAPI 在 API 路由之后提供静态文件，显式配置同源 API；未改变优化器及本地默认行为。新增静态路径隔离测试，避免公开数据库/源代码路径。294 项后端测试、同源真实三纹章 HTTP 求解与 6 页面检查通过；云端状态见部署记录。

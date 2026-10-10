@@ -82,3 +82,24 @@ def test_local_profile_preserved(monkeypatch):
     response = TestClient(app).get("/api/v1/catalog")
     assert response.status_code == 200
     assert response.json()["verification_status"] == "synthetic"
+
+
+def test_same_origin_static_host(client, monkeypatch, tmp_path):
+    from app.main import create_app
+    (tmp_path / "index.html").write_text("<h1>EmblemLab public preview</h1>")
+    (tmp_path / "catalog").mkdir()
+    (tmp_path / "catalog/index.html").write_text("<h1>Catalog</h1>")
+    (tmp_path / "_next").mkdir()
+    (tmp_path / "_next/test.js").write_text("console.log('preview')")
+    monkeypatch.setenv("PUBLIC_WEB_DIR", str(tmp_path))
+    static_client = TestClient(create_app())
+    assert "EmblemLab public preview" in static_client.get("/").text
+    assert static_client.get("/catalog/").status_code == 200
+    assert static_client.get("/_next/test.js").status_code == 200
+    assert static_client.get("/health").json()["status"] == "ok"
+    assert static_client.get(f"/api/v1/catalog?ruleset_id={ID}").json()["id"] == ID
+    assert static_client.post("/api/v1/data/manual/validate").status_code == 403
+    assert static_client.get("/docs").status_code == 403
+    assert static_client.get("/Dockerfile").status_code == 403
+    assert static_client.get("/_next/../Dockerfile").status_code == 403
+    assert static_client.get("/_next/%2e%2e/%2e%2e/Dockerfile").status_code == 404

@@ -7,7 +7,7 @@ export type Catalog={id:string;game:string;patch:string;zh_CN:string;champions:U
 export type Candidate={id:string;champions:Unit[];assignments:{instance_index:number;emblem_id:string;champion_id:string;explanation:string}[];unused_emblem_indices:number[];traits:{id:string;name:string;count:number;active:boolean;level:number;utility:number;thresholds:number[]}[];score:{total:number;components:Record<string,{value:number;weight:number;contribution:number}>};solver_status:string;objective_value:number;best_bound:number};
 export type Result={status:string;enumeration_status:string;candidates:Candidate[];elapsed_seconds:number;assumptions:string[]};
 export const PUBLIC_DEMO=process.env.NEXT_PUBLIC_PUBLIC_DEMO==='true';
-export const API=process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+export const API=process.env.NEXT_PUBLIC_API_URL==='same-origin'?'':(process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000');
 export async function api<T>(path:string,body?:unknown):Promise<T>{
  let r:Response;
  try{r=await fetch(API+path,{method:body?'POST':'GET',headers:{'Content-Type':'application/json'},body:body?JSON.stringify(body):undefined})}catch{throw Error(PUBLIC_DEMO?'求解服务暂时无法连接，请稍后重试。':'无法连接后端 API，请确认后端已启动（'+API+'）。')}

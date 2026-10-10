@@ -12,6 +12,7 @@ from app.schemas.domain import SolveRequest
 
 SLOTS = BoundedSemaphore(2)
 READ_PATHS = {"/health", "/api/v1/games", "/api/v1/catalog", "/api/v1/data-health"}
+WEB_PATHS = {"", "/catalog", "/compare", "/data", "/about", "/guides"}
 SOLVE_PATHS = {"/api/v1/solve", "/api/v1/holders/rank"}
 
 
@@ -23,7 +24,8 @@ async def public_preview(request: Request, call_next):
     if not public_demo_enabled() or request.method == "OPTIONS":
         return await call_next(request)
     path = request.url.path.rstrip("/")
-    if request.method == "GET" and path in READ_PATHS:
+    web_asset = os.getenv("PUBLIC_WEB_DIR") and (path in WEB_PATHS or path.startswith("/_next/"))
+    if request.method == "GET" and (path in READ_PATHS or web_asset):
         return await call_next(request)
     if request.method != "POST" or path not in SOLVE_PATHS:
         return JSONResponse({"detail": "朋友测试版未开放此接口"}, status_code=403)

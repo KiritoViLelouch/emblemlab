@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "/": 200,
+    "/catalog/": 200,
+    "/data/": 200,
+    "/about/": 200,
+    "/compare/": 200,
+    "/guides/": 200,
+    "/health": 200
+  },
+  "api": {
+    "status": "FEASIBLE",
+    "candidates": 1,
+    "assignments": [
+      {
+        "instance_index": 0,
+        "emblem_id": "DA_18_EmblemVanguard",
+        "champion_id": "DA_18_Akali_AD",
+        "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+      },
+      {
+        "instance_index": 1,
+        "emblem_id": "DA_18_EmblemBlackthorn",
+        "champion_id": "DA_18_Alune",
+        "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+      },
+      {
+        "instance_index": 2,
+        "emblem_id": "DA_18_EmblemHunter",
+        "champion_id": "DA_KogMaw18_AD",
+        "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+      }
+    ]
+  },
+  "bundled_scripts_without_local_api": 21
+}
