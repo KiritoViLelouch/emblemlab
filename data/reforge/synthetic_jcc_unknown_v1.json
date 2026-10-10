@@ -1,0 +1,119 @@
+{
+  "game": "JCC",
+  "patch": "EXAMPLE-1.0",
+  "set": "SYNTHETIC-EXAMPLE",
+  "mode": "offline-fixture",
+  "schema_version": 1,
+  "id": "synthetic_jcc_unknown_v1",
+  "name": "JCC 合成演示 · 概率未知",
+  "source": "Original synthetic finite reforge law; no real game evidence",
+  "imported_at": "2026-10-10T00:00:00Z",
+  "verification_status": "synthetic",
+  "ruleset_id": "fixture_jcc_v1",
+  "catalog_sha256": "15f8c6e5a03ac702164c143cace27989f3f7c0a2e7809e8cbe755b92831b52b6",
+  "mechanic": "replace_each_target_once",
+  "draw_policy": "conditional_exclude_other_instances",
+  "reforgers_per_target": 1,
+  "max_targets": 3,
+  "target_pools": [
+    {
+      "input_emblem_id": "jcc_emblem_0",
+      "outcomes": [
+        {
+          "emblem_id": "jcc_emblem_1",
+          "probability": null
+        },
+        {
+          "emblem_id": "jcc_emblem_2",
+          "probability": null
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "jcc_emblem_1",
+      "outcomes": [
+        {
+          "emblem_id": "jcc_emblem_2",
+          "probability": null
+        },
+        {
+          "emblem_id": "jcc_emblem_3",
+          "probability": null
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "jcc_emblem_2",
+      "outcomes": [
+        {
+          "emblem_id": "jcc_emblem_3",
+          "probability": null
+        },
+        {
+          "emblem_id": "jcc_emblem_4",
+          "probability": null
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "jcc_emblem_3",
+      "outcomes": [
+        {
+          "emblem_id": "jcc_emblem_4",
+          "probability": null
+        },
+        {
+          "emblem_id": "jcc_emblem_5",
+          "probability": null
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "jcc_emblem_4",
+      "outcomes": [
+        {
+          "emblem_id": "jcc_emblem_5",
+          "probability": null
+        },
+        {
+          "emblem_id": "jcc_emblem_6",
+          "probability": null
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "jcc_emblem_5",
+      "outcomes": [
+        {
+          "emblem_id": "jcc_emblem_6",
+          "probability": null
+        },
+        {
+          "emblem_id": "jcc_emblem_0",
+          "probability": null
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "jcc_emblem_6",
+      "outcomes": [
+        {
+          "emblem_id": "jcc_emblem_0",
+          "probability": null
+        },
+        {
+          "emblem_id": "jcc_emblem_1",
+          "probability": null
+        }
+      ]
+    }
+  ],
+  "mechanics_evidence": {
+    "kind": "synthetic_definition",
+    "reference": "docs/REFORGE_ANALYSIS.md#synthetic-laws",
+    "reviewed_by": "EmblemLab synthetic fixture author",
+    "reviewed_at": "2026-10-10"
+  },
+  "probability_status": "unknown",
+  "probability_evidence": null
+}

@@ -1,0 +1,11 @@
+# Source research (2026-10-10)
+- Riot official TFT docs: https://developer.riotgames.com/docs/tft — reviewed public API, assets and TFT policy documentation. No API key or production registration provided. Serving players requires registration; local prototype is not represented as approved. No data was imported.
+- CommunityDragon directory: https://raw.communitydragon.org/latest/cdragon/tft/ — public directory reachable. Availability is not a blanket license. Pin exact versions and review redistribution/asset rights before future authorized import. No files/assets imported.
+- MetaTFT: https://www.metatft.com/ — public landing page reachable; permission/license for extraction not established. No scraping, statistics import or private API exploration.
+- DataTFT https://www.datatft.com/?lang=en and JCC https://jcc.datatft.com/ — public pages returned no usable documentation text. Authorization and edition-specific provenance unresolved. No extraction.
+- Tencent Docs https://docs.qq.com/sheet/DTkJpdEx6enR6bHNF?tab=mdrc0p — public-page retrieval failed. Contents, ownership and permission unverified. No bypass attempted; any future guide remains separate from match observations.
+Both fixture datasets are original synthetic data with source emblemlab-original-fixture. Names/numbers are examples; all patches use EXAMPLE-1.0 and SYNTHETIC-EXAMPLE. No game artwork included; UI monograms are original placeholders. A directory probe is not permission for integration.
+User-confirmed screenshot labels are saved separately with no image, crop or canonical mapping claimed. No guessed AI labels are retained.
+Future adapter contract: accept only authorized/manual data; require attribution, license status, game/version provenance and verification; validate entire Ruleset before activation. No current-patch importer shipped.
+
+Phase 3: the provider-neutral ingestion API is implemented; no remote source has been enabled or imported. Official Riot docs/terms were rechecked on 2026-10-10. The default `data/statistics/sources.json` grants nothing. Server-side operator authorization must explicitly cover scopes/metrics/uses, with evidence and validity. Community guide permission declarations cannot grant statistical access. See STATISTICS_SOURCE_AUDIT.md and STATISTICS_INGESTION.md.

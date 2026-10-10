@@ -1,0 +1,17 @@
+{
+  "test_data_kind": "synthetic only; no real provider grant/data",
+  "ingest": 200,
+  "sample_size": 8,
+  "top_four_rate": 0.5,
+  "average_placement": 4.5,
+  "replay_unchanged": 1,
+  "synthetic_statistics_available": false,
+  "observed_rows": 0,
+  "wrong_patch": 422,
+  "missing_token": 401,
+  "revoked_read": 403,
+  "revoked_list_total": 0,
+  "default_source_count": 0,
+  "default_ingestion_disabled": 503,
+  "default_observed_total": 0
+}

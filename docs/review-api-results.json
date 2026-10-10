@@ -1,0 +1,110 @@
+{
+  "health": {
+    "status": "ok",
+    "solver": "OR-Tools CP-SAT"
+  },
+  "games": [
+    {
+      "id": "TFT",
+      "name": "TFT 国际服",
+      "versions": [
+        {
+          "patch": "EXAMPLE-1.0",
+          "ruleset_id": "fixture_tft_v1",
+          "name": "TFT 独立合成示例 v1"
+        }
+      ]
+    },
+    {
+      "id": "JCC",
+      "name": "金铲铲之战",
+      "versions": [
+        {
+          "patch": "EXAMPLE-1.0",
+          "ruleset_id": "fixture_jcc_v1",
+          "name": "JCC 独立合成示例 v1"
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "game": "TFT",
+      "objective": "MAX_ACTIVE_TRAITS",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 61044
+    },
+    {
+      "game": "TFT",
+      "objective": "MAX_BREAKPOINT",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 10644
+    },
+    {
+      "game": "TFT",
+      "objective": "BALANCED",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 1637
+    },
+    {
+      "game": "TFT",
+      "objective": "LOW_COST",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 58391
+    },
+    {
+      "game": "TFT",
+      "objective": "LATE_GAME",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 2305
+    },
+    {
+      "game": "JCC",
+      "objective": "MAX_ACTIVE_TRAITS",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 61044
+    },
+    {
+      "game": "JCC",
+      "objective": "MAX_BREAKPOINT",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 10644
+    },
+    {
+      "game": "JCC",
+      "objective": "BALANCED",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 1637
+    },
+    {
+      "game": "JCC",
+      "objective": "LOW_COST",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 58391
+    },
+    {
+      "game": "JCC",
+      "objective": "LATE_GAME",
+      "status": "OPTIMAL",
+      "candidates": 5,
+      "best_score": 2305
+    }
+  ],
+  "fixture_ids_disjoint": true,
+  "page_statuses": {
+    "/": 200,
+    "/catalog": 200,
+    "/compare": 200,
+    "/data": 200,
+    "/about": 200
+  }
+}

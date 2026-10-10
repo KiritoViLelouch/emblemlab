@@ -1,0 +1,568 @@
+{
+  "game": "TFT",
+  "mode": "standard",
+  "patch": "18.4",
+  "set_number": 18,
+  "mutator": "TFTSet18",
+  "set_name": "Enchanted Wilds",
+  "set_name_zh": "Set 18 · Enchanted Wilds",
+  "resource_patch": "16.20.1",
+  "build_version": "16.20.8248524+branch.releases-16-20.content.release",
+  "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+  "ruleset_id": "tft_set18_18_4_standard",
+  "snapshot_directory": "data/snapshots/tft/16.20",
+  "snapshots": [
+    {
+      "filename": "content-metadata.json",
+      "url": "https://raw.communitydragon.org/16.20/content-metadata.json",
+      "resolved_url": "https://raw.communitydragon.org/16.20/content-metadata.json",
+      "downloaded_at": "2026-10-10T09:40:34.175738+00:00",
+      "sha256": "ab28af6e79f41825ad5f1f8b9d8f262df1267ce1ce0ea7d77291800484879dcd",
+      "bytes": 74,
+      "last_modified": "Wed, 07 Oct 2026 09:33:56 GMT"
+    },
+    {
+      "filename": "ddragon-champion-en_US.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+      "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+      "downloaded_at": "2026-10-10T09:42:48.715435+00:00",
+      "sha256": "1902dac3354aea538d546f839292f22830f222b772cb86d4f2d9cf67450997ac",
+      "bytes": 83923,
+      "last_modified": "Tue, 06 Oct 2026 21:13:51 GMT"
+    },
+    {
+      "filename": "ddragon-champion-zh_CN.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json",
+      "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json",
+      "downloaded_at": "2026-10-10T09:42:48.983157+00:00",
+      "sha256": "cdf5ef2108a18efef7d6ca369168e6a5031190834d056c0dd68fd8672b2159e8",
+      "bytes": 84754,
+      "last_modified": "Tue, 06 Oct 2026 21:14:08 GMT"
+    },
+    {
+      "filename": "ddragon-item-en_US.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+      "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+      "downloaded_at": "2026-10-10T09:42:49.863630+00:00",
+      "sha256": "d06465d20ae20ebc5d943d2730b8b52c43b556728f25b95d49d7bfe85d4b948e",
+      "bytes": 298943,
+      "last_modified": "Tue, 06 Oct 2026 21:13:51 GMT"
+    },
+    {
+      "filename": "ddragon-item-zh_CN.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json",
+      "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json",
+      "downloaded_at": "2026-10-10T09:42:50.177738+00:00",
+      "sha256": "3c8a8c1d9bf4fb971962878caedf866935d870ed2c8e917fc6414fed1d57b254",
+      "bytes": 299869,
+      "last_modified": "Tue, 06 Oct 2026 21:14:08 GMT"
+    },
+    {
+      "filename": "ddragon-trait-en_US.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-trait.json",
+      "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-trait.json",
+      "downloaded_at": "2026-10-10T09:42:49.247448+00:00",
+      "sha256": "bda4f30af7f81a69d53ea4430189ba1ff5018acbe03740f0ce485a9e26eb08cd",
+      "bytes": 71552,
+      "last_modified": "Tue, 06 Oct 2026 21:13:51 GMT"
+    },
+    {
+      "filename": "ddragon-trait-zh_CN.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-trait.json",
+      "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-trait.json",
+      "downloaded_at": "2026-10-10T09:42:49.533891+00:00",
+      "sha256": "88cdbae75e44810b4df45b0d13edadf3bef277f7db347e5ded7baf8b2076f053",
+      "bytes": 72067,
+      "last_modified": "Tue, 06 Oct 2026 21:14:08 GMT"
+    },
+    {
+      "filename": "en_us.json",
+      "url": "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+      "resolved_url": "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+      "downloaded_at": "2026-10-10T09:40:31.404350+00:00",
+      "sha256": "17d19792f662cec404aa071492ae9144a2d2677d2eeb1e0d7d8db9b52a47a9c7",
+      "bytes": 24182680,
+      "last_modified": "Wed, 07 Oct 2026 09:40:57 GMT"
+    },
+    {
+      "filename": "versions.json",
+      "url": "https://ddragon.leagueoflegends.com/api/versions.json",
+      "resolved_url": "https://ddragon.leagueoflegends.com/api/versions.json",
+      "downloaded_at": "2026-10-10T09:40:33.937547+00:00",
+      "sha256": "8816af5251c22a1a99232e2f328c5dd099cd0bc248b6d530ecb36b3328446d4f",
+      "bytes": 5219,
+      "last_modified": "Tue, 06 Oct 2026 21:17:54 GMT"
+    },
+    {
+      "filename": "zh_cn.json",
+      "url": "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json",
+      "resolved_url": "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json",
+      "downloaded_at": "2026-10-10T09:40:32.035682+00:00",
+      "sha256": "569a7d0d97d09e2de005b93645efa148658037cced1ecd3f0ba316de438b5855",
+      "bytes": 24303583,
+      "last_modified": "Wed, 07 Oct 2026 09:40:53 GMT"
+    }
+  ],
+  "imported_at": "2026-10-10T09:42:50.177738+00:00",
+  "reviewed_at": "2026-10-10T09:55:40.739268+00:00",
+  "live_as_of": "2026-10-10",
+  "required_champion_ids": [
+    "DA_18_Ahri",
+    "DA_18_Akali_AD",
+    "DA_18_Alistar",
+    "DA_18_Alune",
+    "DA_18_Aphelios",
+    "DA_18_Ashe",
+    "DA_18_Azir",
+    "DA_18_Caitlyn",
+    "DA_18_Camille",
+    "DA_18_Cassiopeia",
+    "DA_18_Diana",
+    "DA_18_ElderDragon",
+    "DA_18_Elise",
+    "DA_18_Ezreal",
+    "DA_18_GnarSmall",
+    "DA_18_Hecarim",
+    "DA_18_Ivern",
+    "DA_18_Kayle",
+    "DA_18_Kennen",
+    "DA_18_KhaZix",
+    "DA_18_Kobuko",
+    "DA_18_LeBlanc",
+    "DA_18_Leona",
+    "DA_18_Lillia",
+    "DA_18_Lux_Coven",
+    "DA_18_Lux_Elderwood",
+    "DA_18_Lux_Fae",
+    "DA_18_Lux_Inferno",
+    "DA_18_Lux_Moonbeam",
+    "DA_18_Lux_Primal",
+    "DA_18_Lux_Sunbeam",
+    "DA_18_Malphite",
+    "DA_18_Maokai",
+    "DA_18_MasterYi_AD",
+    "DA_18_Morgana",
+    "DA_18_Ornn",
+    "DA_18_Rakan",
+    "DA_18_Rammus",
+    "DA_18_RekSai",
+    "DA_18_Rengar",
+    "DA_18_Sejuani",
+    "DA_18_Sentry",
+    "DA_18_Sett",
+    "DA_18_Shen",
+    "DA_18_Sivir",
+    "DA_18_Soraka",
+    "DA_18_Teemo",
+    "DA_18_Tristana",
+    "DA_18_Varus",
+    "DA_18_Veigar",
+    "DA_18_Warwick",
+    "DA_18_Xayah",
+    "DA_18_Yorick",
+    "DA_18_Yunara",
+    "DA_18_Zyra",
+    "DA_Amumu18",
+    "DA_Brambleback18",
+    "DA_Cinderling18",
+    "DA_CrimsonRaptor18",
+    "DA_Draven18",
+    "DA_Fiddlesticks18",
+    "DA_Gromp18_AP",
+    "DA_Karma18",
+    "DA_KogMaw18_AD",
+    "DA_Krug18",
+    "DA_Lux18_Base",
+    "DA_Lux18_Blackthorn",
+    "DA_Lux18_Blossom",
+    "DA_Murkwolf18",
+    "DA_Nidalee18_AP",
+    "DA_Scuttlecrab18",
+    "DA_Sentinel18",
+    "DA_Taric18",
+    "DA_Vi18"
+  ],
+  "official_prefixes": {
+    "champion": "Maps/Shipping/Map22/Sets/TFTSet18/Shop/",
+    "trait": "",
+    "item": "TFTSet18/Set18_Items/"
+  },
+  "unsupported_traits": {
+    "DA_18_Rival": "宿敌进化和非单调激活尚未支持",
+    "DA_18_Eclipse": "日月双蚀触发条件缺失，月蚀骑士与日蚀骑士同场禁用"
+  },
+  "emblem_associations": {
+    "DA_18_EmblemVanguard": {
+      "trait_id": "DA_18_Vanguard",
+      "zh_CN": "重装战士纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemBlackthorn": {
+      "trait_id": "DA_18_Blackthorn",
+      "zh_CN": "黑荆棘纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemHunter": {
+      "trait_id": "DA_18_Hunter",
+      "zh_CN": "猎人纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemDefender": {
+      "trait_id": "DA_18_Defender",
+      "zh_CN": "护卫纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemFae": {
+      "trait_id": "DA_18_Fae",
+      "zh_CN": "花仙子纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemSprykin": {
+      "trait_id": "DA_18_Sprykin",
+      "zh_CN": "约德尔人和朋友纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemInvoker": {
+      "trait_id": "DA_18_Invoker",
+      "zh_CN": "神谕纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemBrawler": {
+      "trait_id": "DA_18_Brawler",
+      "zh_CN": "斗士纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemExecutioner": {
+      "trait_id": "DA_18_Executioner",
+      "zh_CN": "裁决使纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemLunar": {
+      "trait_id": "DA_18_Lunar",
+      "zh_CN": "月蚀骑士纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemRapidfire": {
+      "trait_id": "DA_18_Rapidfire",
+      "zh_CN": "迅捷射手纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemElderwood": {
+      "trait_id": "DA_18_Elderwood",
+      "zh_CN": "永恒之森纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemSpellweaver": {
+      "trait_id": "DA_18_Spellweaver",
+      "zh_CN": "法师纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemCoven": {
+      "trait_id": "DA_18_Coven",
+      "zh_CN": "魔女纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemBlossom": {
+      "trait_id": "DA_18_Blossom",
+      "zh_CN": "灵魂莲华纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemInferno": {
+      "trait_id": "DA_18_Inferno",
+      "zh_CN": "地狱火纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemPrimal": {
+      "trait_id": "DA_Primal18",
+      "zh_CN": "野兽之灵纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemSlayer": {
+      "trait_id": "DA_18_Slayer",
+      "zh_CN": "狂战士纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemFloraFatalis": {
+      "trait_id": "DA_FloraFatalis18",
+      "zh_CN": "绝命花妖纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemFloraFatalisAugment": {
+      "trait_id": "DA_FloraFatalis18",
+      "zh_CN": "绝命花妖纹章",
+      "enabled": false,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    },
+    "DA_18_EmblemJuggernaut": {
+      "trait_id": "DA_Juggernaut18",
+      "zh_CN": "主宰纹章",
+      "enabled": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ]
+    }
+  },
+  "rule_checks": [
+    {
+      "id": "set_patch_mode",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/",
+        "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+      ],
+      "notes": "Explicit Set 18 / TFTSet18 / standard, gameplay 18.4, resources 16.20.1. Never select max set ID."
+    },
+    {
+      "id": "canonical_roster_cost_locales",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+      ],
+      "notes": "Exact official standard shop roster and CommunityDragon costs/native trait IDs cross-checked in en_US/zh_CN."
+    },
+    {
+      "id": "native_trait_relationships",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+        "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json"
+      ],
+      "notes": "Scoped bilingual trait references; unsupported Rival units disabled."
+    },
+    {
+      "id": "monotonic_trait_thresholds",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json"
+      ],
+      "notes": "Read minUnits, identical in both locales. Rival and Eclipse excluded."
+    },
+    {
+      "id": "emblem_associations",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+      ],
+      "notes": "Explicit reviewed canonical mapping with exact official English trait+Emblem label and pinned Chinese label. Source associatedTraits is empty, not silently trusted."
+    },
+    {
+      "id": "elder_dragon_weight_slots",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+      ],
+      "notes": "Two board slots; Riftbeast contribution is 2 total, not 3. Corroborated current trait description."
+    },
+    {
+      "id": "avatar_weight_and_exclusivity",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+      ],
+      "notes": "Chosen origin counts twice; one Lux form per board under conservative shop transformation profile. Unselected base unavailable."
+    },
+    {
+      "id": "source_snapshots_and_icons",
+      "status": "VERIFIED",
+      "essential": true,
+      "evidence": [
+        "https://raw.communitydragon.org/16.20/content-metadata.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-trait.json",
+        "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-trait.json",
+        "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+        "https://ddragon.leagueoflegends.com/api/versions.json",
+        "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json"
+      ],
+      "notes": "Pinned snapshot digests and official per-version icon references; HTTP verification recorded separately."
+    },
+    {
+      "id": "native_and_duplicate_equipment",
+      "status": "UNVERIFIED",
+      "essential": false,
+      "evidence": [],
+      "notes": "Current extracted item incompatibility/unique fields are incomplete. Preserve conservative optimizer restriction: no native holder, <=1 same trait emblem per holder; identical instances may go to distinct holders. This is a safe search restriction, not a claim of exhaustive game legality."
+    },
+    {
+      "id": "riftbeast_ten_capacity",
+      "status": "UNVERIFIED",
+      "essential": false,
+      "evidence": [
+        "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+      ],
+      "notes": "Overview +1 slot versus snapshot TeamSize=2. Reject Riftbeast count >=10 until independently verified."
+    },
+    {
+      "id": "eclipse_activation",
+      "status": "UNSUPPORTED",
+      "essential": false,
+      "evidence": [],
+      "notes": "Missing minUnits/activation predicate. Prevent Lunar+Solar boards and do not score Eclipse."
+    },
+    {
+      "id": "rival_evolution",
+      "status": "UNSUPPORTED",
+      "essential": false,
+      "evidence": [
+        "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+      ],
+      "notes": "Non-monotonic levels and acquired traits depend on takedown history. Rengar/KhaZix disabled."
+    },
+    {
+      "id": "flora_fatalis_augment_emblem_availability",
+      "status": "UNVERIFIED",
+      "essential": false,
+      "evidence": [],
+      "notes": "Duplicate canonical Augment emblem with uncertain acquisition context: imported for reference, disabled."
+    },
+    {
+      "id": "combat_economy_augments_wisps",
+      "status": "UNSUPPORTED",
+      "essential": false,
+      "evidence": [
+        "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+      ],
+      "notes": "Combat effects, summons, permanent evolution, star levels, augmentation and Wisp changes are outside static precombat trait-count profile."
+    }
+  ],
+  "scope": "赛前静态羁绊计数与档位优化；保守装备限制；不含宿敌、日蚀、峡谷野怪 10 档及战斗/经济模拟",
+  "unsupported_mechanics": [
+    "宿敌击杀进化：卡兹克、雷恩加尔禁用",
+    "日蚀：触发条件缺失；月蚀骑士与日蚀骑士同场禁用",
+    "Riftbeast 10 的人口加成存在来源冲突，计数限制为 9",
+    "化身：必须选择具体形态；同场仅允许一个拉克丝形态",
+    "原生/重复装备限制沿用保守搜索策略，尚未独立验证所有游戏装备例外",
+    "Flora Fatalis Augment 纹章获取条件不明，禁用",
+    "战斗效果、召唤物战力、星级、强化符文、精灵、经济与永久成长不建模"
+  ],
+  "required_trait_ids": [
+    "DA_18_Adaptor",
+    "DA_18_ApexPredator",
+    "DA_18_Battlemage",
+    "DA_18_Blackthorn",
+    "DA_18_Blossom",
+    "DA_18_Brawler",
+    "DA_18_Caustic",
+    "DA_18_Coven",
+    "DA_18_Defender",
+    "DA_18_Eclipse",
+    "DA_18_Elderwood",
+    "DA_18_Executioner",
+    "DA_18_Fae",
+    "DA_18_Greenfather",
+    "DA_18_Hunter",
+    "DA_18_Inferno",
+    "DA_18_Invoker",
+    "DA_18_Lunar",
+    "DA_18_LuxUniqueTrait",
+    "DA_18_Maokai_UniqueTrait",
+    "DA_18_Rapidfire",
+    "DA_18_Rival",
+    "DA_18_Slayer",
+    "DA_18_Solar",
+    "DA_18_Spellweaver",
+    "DA_18_Sprykin",
+    "DA_18_Summoner",
+    "DA_18_Vanguard",
+    "DA_18_ZyraUniqueTrait",
+    "DA_AluneUniqueTrait18",
+    "DA_DravenUniqueTrait18",
+    "DA_Emerald18",
+    "DA_FloraFatalis18",
+    "DA_Juggernaut18",
+    "DA_Primal18",
+    "DA_Riftbeast18"
+  ]
+}

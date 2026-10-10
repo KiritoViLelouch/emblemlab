@@ -1,0 +1,18 @@
+{
+  "desktop": {
+    "brokenImages": 0,
+    "holders": 3,
+    "meta": "FEASIBLE · 1 个方案 · 5.00 秒 · 枚举结束状态 UNKNOWN",
+    "provenance": "TFT · 部分验证 / PARTIALLY_VERIFIED来源与校验 ↗赛季：Enchanted Wilds（Set 18） · 补丁：18.4 · 模式：standard资源版本：16.20.1 · 最后核查：2026-10-10 · 棋子可用覆盖：96%来源：Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot赛前静态羁绊计数与档位优化；保守装备限制；不含宿敌、日蚀、峡谷野怪 10 档及战斗/经济模拟不支持或受限制的机制（7）宿敌击杀进化：卡兹克、雷恩加尔禁用日蚀：触发条件缺失；月蚀骑士与日蚀骑士同场禁用Riftbeast 10 的人口加成存在来源冲突，计数限制为 9化身：必须选择具体形态；同场仅允许一个拉克丝形态原生/重复装备限制沿用保守搜索策略，尚未独立验证所有游戏装备例外Flora Fatalis Augment 纹章获取条件不明，禁用战斗效果、召唤物战力、星级、强化符文、精灵、经济与永久成长不建模",
+    "scrollWidth": 1280,
+    "viewportWidth": 1280
+  },
+  "mobile": {
+    "candidates": 1,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "manualDraftUpload": "CSV test-only input returned activated=false and optimization_enabled=false",
+  "syntheticOptIn": "Verified SYNTHETIC banner and fixture labels",
+  "jcc": "Verified disabled optimize button and no real versions"
+}

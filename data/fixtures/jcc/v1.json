@@ -1,0 +1,575 @@
+{
+  "game": "JCC",
+  "patch": "EXAMPLE-1.0",
+  "set": "SYNTHETIC-EXAMPLE",
+  "mode": "offline-fixture",
+  "source": "emblemlab-original-fixture",
+  "imported_at": "2026-10-10T00:00:00Z",
+  "verification_status": "synthetic",
+  "id": "fixture_jcc_v1",
+  "zh_CN": "JCC 独立合成示例 v1",
+  "en_US": "JCC synthetic example v1",
+  "allow_duplicate_emblems": false,
+  "allow_unused_emblems": true,
+  "max_same_emblem_per_holder": 1,
+  "champions": [
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_0",
+      "zh_CN": "竹隐（示例）",
+      "en_US": "Example jcc unit 0",
+      "cost": 1,
+      "traits": [
+        "jcc_trait_0",
+        "jcc_trait_1"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_1",
+      "zh_CN": "丹砂（示例）",
+      "en_US": "Example jcc unit 1",
+      "cost": 2,
+      "traits": [
+        "jcc_trait_1",
+        "jcc_trait_4"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_2",
+      "zh_CN": "墨川（示例）",
+      "en_US": "Example jcc unit 2",
+      "cost": 3,
+      "traits": [
+        "jcc_trait_2",
+        "jcc_trait_0"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_3",
+      "zh_CN": "银鹭（示例）",
+      "en_US": "Example jcc unit 3",
+      "cost": 4,
+      "traits": [
+        "jcc_trait_3"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_4",
+      "zh_CN": "玉衡（示例）",
+      "en_US": "Example jcc unit 4",
+      "cost": 5,
+      "traits": [
+        "jcc_trait_4",
+        "jcc_trait_6"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_5",
+      "zh_CN": "锦鳞（示例）",
+      "en_US": "Example jcc unit 5",
+      "cost": 1,
+      "traits": [
+        "jcc_trait_5",
+        "jcc_trait_2"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_6",
+      "zh_CN": "赤松（示例）",
+      "en_US": "Example jcc unit 6",
+      "cost": 2,
+      "traits": [
+        "jcc_trait_6",
+        "jcc_trait_5"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_7",
+      "zh_CN": "澄海（示例）",
+      "en_US": "Example jcc unit 7",
+      "cost": 3,
+      "traits": [
+        "jcc_trait_0",
+        "jcc_trait_1"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_8",
+      "zh_CN": "飞砚（示例）",
+      "en_US": "Example jcc unit 8",
+      "cost": 4,
+      "traits": [
+        "jcc_trait_1",
+        "jcc_trait_4"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_9",
+      "zh_CN": "玄石（示例）",
+      "en_US": "Example jcc unit 9",
+      "cost": 5,
+      "traits": [
+        "jcc_trait_2",
+        "jcc_trait_0"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_10",
+      "zh_CN": "流萤（示例）",
+      "en_US": "Example jcc unit 10",
+      "cost": 1,
+      "traits": [
+        "jcc_trait_3"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_11",
+      "zh_CN": "栖鹤（示例）",
+      "en_US": "Example jcc unit 11",
+      "cost": 2,
+      "traits": [
+        "jcc_trait_4",
+        "jcc_trait_6"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_12",
+      "zh_CN": "雨笙（示例）",
+      "en_US": "Example jcc unit 12",
+      "cost": 3,
+      "traits": [
+        "jcc_trait_5",
+        "jcc_trait_2"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_unit_13",
+      "zh_CN": "山岚（示例）",
+      "en_US": "Example jcc unit 13",
+      "cost": 4,
+      "traits": [
+        "jcc_trait_6",
+        "jcc_trait_5"
+      ],
+      "item_slots": 3,
+      "available": true
+    }
+  ],
+  "traits": [
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_trait_0",
+      "zh_CN": "山海",
+      "en_US": "Example jcc trait 0",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_trait_1",
+      "zh_CN": "护阵",
+      "en_US": "Example jcc trait 1",
+      "thresholds": [
+        {
+          "count": 3,
+          "utility": 15
+        },
+        {
+          "count": 5,
+          "utility": 38
+        },
+        {
+          "count": 7,
+          "utility": 65
+        }
+      ]
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_trait_2",
+      "zh_CN": "灵术",
+      "en_US": "Example jcc trait 2",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_trait_3",
+      "zh_CN": "逐风",
+      "en_US": "Example jcc trait 3",
+      "thresholds": [
+        {
+          "count": 3,
+          "utility": 15
+        },
+        {
+          "count": 5,
+          "utility": 38
+        },
+        {
+          "count": 7,
+          "utility": 65
+        }
+      ]
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_trait_4",
+      "zh_CN": "丹心",
+      "en_US": "Example jcc trait 4",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_trait_5",
+      "zh_CN": "破军",
+      "en_US": "Example jcc trait 5",
+      "thresholds": [
+        {
+          "count": 3,
+          "utility": 15
+        },
+        {
+          "count": 5,
+          "utility": 38
+        },
+        {
+          "count": 7,
+          "utility": 65
+        }
+      ]
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_trait_6",
+      "zh_CN": "巧匠",
+      "en_US": "Example jcc trait 6",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    }
+  ],
+  "emblems": [
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_emblem_0",
+      "zh_CN": "山海纹章（示例）",
+      "en_US": "Example jcc emblem 0",
+      "trait_id": "jcc_trait_0",
+      "banned_holders": [
+        "jcc_unit_13"
+      ],
+      "allow_native": false
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_emblem_1",
+      "zh_CN": "护阵纹章（示例）",
+      "en_US": "Example jcc emblem 1",
+      "trait_id": "jcc_trait_1",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_emblem_2",
+      "zh_CN": "灵术纹章（示例）",
+      "en_US": "Example jcc emblem 2",
+      "trait_id": "jcc_trait_2",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_emblem_3",
+      "zh_CN": "逐风纹章（示例）",
+      "en_US": "Example jcc emblem 3",
+      "trait_id": "jcc_trait_3",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_emblem_4",
+      "zh_CN": "丹心纹章（示例）",
+      "en_US": "Example jcc emblem 4",
+      "trait_id": "jcc_trait_4",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_emblem_5",
+      "zh_CN": "破军纹章（示例）",
+      "en_US": "Example jcc emblem 5",
+      "trait_id": "jcc_trait_5",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "JCC",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "jcc_emblem_6",
+      "zh_CN": "巧匠纹章（示例）",
+      "en_US": "Example jcc emblem 6",
+      "trait_id": "jcc_trait_6",
+      "banned_holders": [],
+      "allow_native": false
+    }
+  ],
+  "license_status": "Original synthetic data; no game assets included"
+}

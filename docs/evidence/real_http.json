@@ -1,0 +1,1597 @@
+{
+  "executed_at": "2026-10-10T10:19:06.106382+00:00",
+  "results": [
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/games?include_synthetic=false",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/catalog?game_id=TFT&ruleset_id=tft_set18_18_4_standard",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/data-health",
+      "status": 200
+    },
+    {
+      "emblems": [
+        "DA_18_EmblemBrawler"
+      ],
+      "status": 200,
+      "solver_status": "FEASIBLE",
+      "score": 130105,
+      "occupied_slots": 8,
+      "champions": [
+        "DA_18_Akali_AD",
+        "DA_18_Alune",
+        "DA_18_Diana",
+        "DA_18_Shen",
+        "DA_Fiddlesticks18",
+        "DA_KogMaw18_AD",
+        "DA_Lux18_Blackthorn",
+        "DA_Sentinel18"
+      ],
+      "assignments": [
+        {
+          "instance_index": 0,
+          "emblem_id": "DA_18_EmblemBrawler",
+          "champion_id": "DA_Sentinel18",
+          "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+        }
+      ],
+      "traits": [
+        {
+          "id": "DA_18_Elderwood",
+          "name": "永恒之森",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_LuxUniqueTrait",
+          "name": "自然之力！大元素使",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Slayer",
+          "name": "狂战士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_DravenUniqueTrait18",
+          "name": "赏金猎人",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Solar",
+          "name": "日蚀骑士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Sprykin",
+          "name": "约德尔人和朋友",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Adaptor",
+          "name": "魔战士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Coven",
+          "name": "魔女",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            4,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Eclipse",
+          "name": "日月双蚀",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [],
+          "supported": false
+        },
+        {
+          "id": "DA_18_Hunter",
+          "name": "猎人",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Maokai_UniqueTrait",
+          "name": "远古树精",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Battlemage",
+          "name": "魔岩巨兽",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Primal18",
+          "name": "野兽之灵",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Greenfather",
+          "name": "翠神",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Invoker",
+          "name": "神谕",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Rapidfire",
+          "name": "迅捷射手",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Juggernaut18",
+          "name": "主宰",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Inferno",
+          "name": "地狱火",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_AluneUniqueTrait18",
+          "name": "月华神女",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Rival",
+          "name": "宿敌",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [],
+          "supported": false
+        },
+        {
+          "id": "DA_18_Vanguard",
+          "name": "重装战士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Brawler",
+          "name": "斗士",
+          "count": 1,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Blackthorn",
+          "name": "黑荆棘",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Executioner",
+          "name": "裁决使",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_ApexPredator",
+          "name": "顶级掠食者",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Riftbeast18",
+          "name": "峡谷野怪",
+          "count": 1,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            10
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Caustic",
+          "name": "帝王斑蝶",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Fae",
+          "name": "花仙子",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Lunar",
+          "name": "月蚀骑士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Defender",
+          "name": "护卫",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Spellweaver",
+          "name": "法师",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_ZyraUniqueTrait",
+          "name": "荆棘之兴",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_FloraFatalis18",
+          "name": "绝命花妖",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1,
+            2
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Summoner",
+          "name": "召唤师",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Blossom",
+          "name": "灵魂莲华",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Emerald18",
+          "name": "宝石骑士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        }
+      ]
+    },
+    {
+      "emblems": [
+        "DA_18_EmblemBrawler",
+        "DA_18_EmblemBlossom",
+        "DA_18_EmblemElderwood"
+      ],
+      "status": 200,
+      "solver_status": "FEASIBLE",
+      "score": 120097,
+      "occupied_slots": 8,
+      "champions": [
+        "DA_18_Lux_Moonbeam",
+        "DA_18_Malphite",
+        "DA_18_Maokai",
+        "DA_18_MasterYi_AD",
+        "DA_18_RekSai",
+        "DA_18_Yorick",
+        "DA_18_Zyra",
+        "DA_KogMaw18_AD"
+      ],
+      "assignments": [
+        {
+          "instance_index": 0,
+          "emblem_id": "DA_18_EmblemBrawler",
+          "champion_id": "DA_18_Malphite",
+          "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+        },
+        {
+          "instance_index": 2,
+          "emblem_id": "DA_18_EmblemElderwood",
+          "champion_id": "DA_18_RekSai",
+          "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+        },
+        {
+          "instance_index": 1,
+          "emblem_id": "DA_18_EmblemBlossom",
+          "champion_id": "DA_KogMaw18_AD",
+          "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+        }
+      ],
+      "traits": [
+        {
+          "id": "DA_18_Elderwood",
+          "name": "永恒之森",
+          "count": 1,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_LuxUniqueTrait",
+          "name": "自然之力！大元素使",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Slayer",
+          "name": "狂战士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_DravenUniqueTrait18",
+          "name": "赏金猎人",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Solar",
+          "name": "日蚀骑士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Sprykin",
+          "name": "约德尔人和朋友",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Adaptor",
+          "name": "魔战士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Coven",
+          "name": "魔女",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            4,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Eclipse",
+          "name": "日月双蚀",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [],
+          "supported": false
+        },
+        {
+          "id": "DA_18_Hunter",
+          "name": "猎人",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Maokai_UniqueTrait",
+          "name": "远古树精",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Battlemage",
+          "name": "魔岩巨兽",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Primal18",
+          "name": "野兽之灵",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Greenfather",
+          "name": "翠神",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Invoker",
+          "name": "神谕",
+          "count": 1,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Rapidfire",
+          "name": "迅捷射手",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Juggernaut18",
+          "name": "主宰",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Inferno",
+          "name": "地狱火",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_AluneUniqueTrait18",
+          "name": "月华神女",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Rival",
+          "name": "宿敌",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [],
+          "supported": false
+        },
+        {
+          "id": "DA_18_Vanguard",
+          "name": "重装战士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Brawler",
+          "name": "斗士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Blackthorn",
+          "name": "黑荆棘",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Executioner",
+          "name": "裁决使",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_ApexPredator",
+          "name": "顶级掠食者",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Riftbeast18",
+          "name": "峡谷野怪",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            10
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Caustic",
+          "name": "帝王斑蝶",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Fae",
+          "name": "花仙子",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Lunar",
+          "name": "月蚀骑士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Defender",
+          "name": "护卫",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Spellweaver",
+          "name": "法师",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_ZyraUniqueTrait",
+          "name": "荆棘之兴",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_FloraFatalis18",
+          "name": "绝命花妖",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1,
+            2
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Summoner",
+          "name": "召唤师",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Blossom",
+          "name": "灵魂莲华",
+          "count": 3,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Emerald18",
+          "name": "宝石骑士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        }
+      ]
+    },
+    {
+      "emblems": [
+        "DA_18_EmblemBrawler",
+        "DA_18_EmblemBrawler"
+      ],
+      "status": 200,
+      "solver_status": "FEASIBLE",
+      "score": 140116,
+      "occupied_slots": 8,
+      "champions": [
+        "DA_18_Akali_AD",
+        "DA_18_Alune",
+        "DA_18_Diana",
+        "DA_18_Shen",
+        "DA_Fiddlesticks18",
+        "DA_KogMaw18_AD",
+        "DA_Lux18_Blackthorn",
+        "DA_Sentinel18"
+      ],
+      "assignments": [
+        {
+          "instance_index": 1,
+          "emblem_id": "DA_18_EmblemBrawler",
+          "champion_id": "DA_18_Akali_AD",
+          "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+        },
+        {
+          "instance_index": 0,
+          "emblem_id": "DA_18_EmblemBrawler",
+          "champion_id": "DA_18_Shen",
+          "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+        }
+      ],
+      "traits": [
+        {
+          "id": "DA_18_Elderwood",
+          "name": "永恒之森",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_LuxUniqueTrait",
+          "name": "自然之力！大元素使",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Slayer",
+          "name": "狂战士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_DravenUniqueTrait18",
+          "name": "赏金猎人",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Solar",
+          "name": "日蚀骑士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Sprykin",
+          "name": "约德尔人和朋友",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Adaptor",
+          "name": "魔战士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Coven",
+          "name": "魔女",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            4,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Eclipse",
+          "name": "日月双蚀",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [],
+          "supported": false
+        },
+        {
+          "id": "DA_18_Hunter",
+          "name": "猎人",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Maokai_UniqueTrait",
+          "name": "远古树精",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Battlemage",
+          "name": "魔岩巨兽",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Primal18",
+          "name": "野兽之灵",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Greenfather",
+          "name": "翠神",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Invoker",
+          "name": "神谕",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Rapidfire",
+          "name": "迅捷射手",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Juggernaut18",
+          "name": "主宰",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Inferno",
+          "name": "地狱火",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_AluneUniqueTrait18",
+          "name": "月华神女",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Rival",
+          "name": "宿敌",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [],
+          "supported": false
+        },
+        {
+          "id": "DA_18_Vanguard",
+          "name": "重装战士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Brawler",
+          "name": "斗士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Blackthorn",
+          "name": "黑荆棘",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Executioner",
+          "name": "裁决使",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_ApexPredator",
+          "name": "顶级掠食者",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Riftbeast18",
+          "name": "峡谷野怪",
+          "count": 1,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            10
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Caustic",
+          "name": "帝王斑蝶",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Fae",
+          "name": "花仙子",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            4
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Lunar",
+          "name": "月蚀骑士",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Defender",
+          "name": "护卫",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Spellweaver",
+          "name": "法师",
+          "count": 2,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            2,
+            4,
+            6
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_ZyraUniqueTrait",
+          "name": "荆棘之兴",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_FloraFatalis18",
+          "name": "绝命花妖",
+          "count": 1,
+          "active": true,
+          "level": 1,
+          "utility": 1,
+          "thresholds": [
+            1,
+            2
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Summoner",
+          "name": "召唤师",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            2,
+            3
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_18_Blossom",
+          "name": "灵魂莲华",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "supported": true
+        },
+        {
+          "id": "DA_Emerald18",
+          "name": "宝石骑士",
+          "count": 0,
+          "active": false,
+          "level": 0,
+          "utility": 0,
+          "thresholds": [
+            1
+          ],
+          "supported": true
+        }
+      ]
+    },
+    {
+      "rejected": {
+        "game_id": "JCC"
+      },
+      "status": 422,
+      "detail": "所选游戏和规则集不匹配或不存在"
+    },
+    {
+      "rejected": {
+        "emblem_ids": [
+          "tft_emblem_0"
+        ]
+      },
+      "status": 422,
+      "detail": "Unknown or cross-game emblem"
+    },
+    {
+      "rejected": {
+        "emblem_ids": [
+          "DA_18_EmblemFloraFatalisAugment"
+        ]
+      },
+      "status": 422,
+      "detail": "Unsupported or unverified emblem"
+    }
+  ]
+}

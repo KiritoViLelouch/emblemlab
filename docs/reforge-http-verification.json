@@ -1,0 +1,55 @@
+{
+  "scope": "synthetic_only",
+  "checks": [
+    {
+      "game": "TFT",
+      "probability_status": "unknown",
+      "strategies": 8,
+      "legal_strategies": 8,
+      "inventories": 21,
+      "all_optimal": true,
+      "ev_checked": false,
+      "unknown_ev_null": true
+    },
+    {
+      "game": "TFT",
+      "probability_status": "verified",
+      "strategies": 8,
+      "legal_strategies": 8,
+      "inventories": 21,
+      "all_optimal": true,
+      "ev_checked": true,
+      "unknown_ev_null": false
+    },
+    {
+      "game": "JCC",
+      "probability_status": "unknown",
+      "strategies": 8,
+      "legal_strategies": 7,
+      "inventories": 10,
+      "all_optimal": true,
+      "ev_checked": false,
+      "unknown_ev_null": true
+    },
+    {
+      "game": "JCC",
+      "probability_status": "verified",
+      "strategies": 8,
+      "legal_strategies": 7,
+      "inventories": 10,
+      "all_optimal": true,
+      "ev_checked": true,
+      "unknown_ev_null": false
+    }
+  ],
+  "TFT": {
+    "zero_charge_no_op_only": true,
+    "instance_lock_respected": true,
+    "missing_rule_rejected": true
+  },
+  "JCC": {
+    "zero_charge_no_op_only": true,
+    "instance_lock_respected": true,
+    "missing_rule_rejected": true
+  }
+}

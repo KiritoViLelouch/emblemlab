@@ -1,0 +1,166 @@
+{
+  "game": "TFT",
+  "patch": "EXAMPLE-1.0",
+  "set": "SYNTHETIC-EXAMPLE",
+  "mode": "offline-fixture",
+  "schema_version": 1,
+  "id": "synthetic_tft_known_v1",
+  "name": "TFT 合成演示 · 已知 1:2 概率",
+  "source": "Original synthetic finite reforge law; no real game evidence",
+  "imported_at": "2026-10-10T00:00:00Z",
+  "verification_status": "synthetic",
+  "ruleset_id": "fixture_tft_v1",
+  "catalog_sha256": "b83a1926163f5c1eca740ac2621f9897bf0d5959703d3505aef3759abe92e26b",
+  "mechanic": "replace_each_target_once",
+  "draw_policy": "independent",
+  "reforgers_per_target": 1,
+  "max_targets": 3,
+  "target_pools": [
+    {
+      "input_emblem_id": "tft_emblem_0",
+      "outcomes": [
+        {
+          "emblem_id": "tft_emblem_1",
+          "probability": {
+            "numerator": 1,
+            "denominator": 3
+          }
+        },
+        {
+          "emblem_id": "tft_emblem_2",
+          "probability": {
+            "numerator": 2,
+            "denominator": 3
+          }
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "tft_emblem_1",
+      "outcomes": [
+        {
+          "emblem_id": "tft_emblem_2",
+          "probability": {
+            "numerator": 1,
+            "denominator": 3
+          }
+        },
+        {
+          "emblem_id": "tft_emblem_3",
+          "probability": {
+            "numerator": 2,
+            "denominator": 3
+          }
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "tft_emblem_2",
+      "outcomes": [
+        {
+          "emblem_id": "tft_emblem_3",
+          "probability": {
+            "numerator": 1,
+            "denominator": 3
+          }
+        },
+        {
+          "emblem_id": "tft_emblem_4",
+          "probability": {
+            "numerator": 2,
+            "denominator": 3
+          }
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "tft_emblem_3",
+      "outcomes": [
+        {
+          "emblem_id": "tft_emblem_4",
+          "probability": {
+            "numerator": 1,
+            "denominator": 3
+          }
+        },
+        {
+          "emblem_id": "tft_emblem_5",
+          "probability": {
+            "numerator": 2,
+            "denominator": 3
+          }
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "tft_emblem_4",
+      "outcomes": [
+        {
+          "emblem_id": "tft_emblem_5",
+          "probability": {
+            "numerator": 1,
+            "denominator": 3
+          }
+        },
+        {
+          "emblem_id": "tft_emblem_6",
+          "probability": {
+            "numerator": 2,
+            "denominator": 3
+          }
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "tft_emblem_5",
+      "outcomes": [
+        {
+          "emblem_id": "tft_emblem_6",
+          "probability": {
+            "numerator": 1,
+            "denominator": 3
+          }
+        },
+        {
+          "emblem_id": "tft_emblem_0",
+          "probability": {
+            "numerator": 2,
+            "denominator": 3
+          }
+        }
+      ]
+    },
+    {
+      "input_emblem_id": "tft_emblem_6",
+      "outcomes": [
+        {
+          "emblem_id": "tft_emblem_0",
+          "probability": {
+            "numerator": 1,
+            "denominator": 3
+          }
+        },
+        {
+          "emblem_id": "tft_emblem_1",
+          "probability": {
+            "numerator": 2,
+            "denominator": 3
+          }
+        }
+      ]
+    }
+  ],
+  "mechanics_evidence": {
+    "kind": "synthetic_definition",
+    "reference": "docs/REFORGE_ANALYSIS.md#synthetic-laws",
+    "reviewed_by": "EmblemLab synthetic fixture author",
+    "reviewed_at": "2026-10-10"
+  },
+  "probability_status": "verified",
+  "probability_evidence": {
+    "kind": "synthetic_definition",
+    "reference": "docs/REFORGE_ANALYSIS.md#synthetic-laws",
+    "reviewed_by": "EmblemLab synthetic fixture author",
+    "reviewed_at": "2026-10-10"
+  }
+}

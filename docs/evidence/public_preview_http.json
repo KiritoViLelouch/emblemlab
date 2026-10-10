@@ -1,0 +1,57 @@
+{
+  "static_pages": {
+    "/": 200,
+    "catalog/": 200,
+    "compare/": 200,
+    "data/": 200,
+    "about/": 200,
+    "guides/": 200
+  },
+  "assets": {
+    "/emblemlab/_next/static/css/25e9d68717b9d65d.css": 200,
+    "/emblemlab/_next/static/chunks/255-60408cf02dacefe1.js": 200,
+    "/emblemlab/_next/static/chunks/main-app-a79ac22f3da2541f.js": 200,
+    "/emblemlab/_next/static/chunks/polyfills-42372ed130431b0a.js": 200,
+    "/emblemlab/_next/static/chunks/app/page-90c78f3fff35348c.js": 200,
+    "/emblemlab/_next/static/chunks/app/layout-bfbc9bdb6a9cbebb.js": 200,
+    "/emblemlab/_next/static/chunks/webpack-4fdbc873125e7eeb.js": 200,
+    "/emblemlab/_next/static/chunks/4bd1b696-c023c6e3521b1417.js": 200,
+    "/emblemlab/_next/static/chunks/app/catalog/page-c2fdea6bc5f4f3ba.js": 200,
+    "/emblemlab/_next/static/chunks/619-ba102abea3e3d0e4.js": 200,
+    "/emblemlab/_next/static/chunks/app/data/page-72cddea794064414.js": 200,
+    "/emblemlab/_next/static/chunks/app/compare/page-3729810418f53332.js": 200,
+    "/emblemlab/_next/static/chunks/239-8e0c91a419236658.js": 200,
+    "/emblemlab/_next/static/chunks/app/guides/page-eb04e2e81c907e47.js": 200
+  },
+  "public_api": {
+    "http": 200,
+    "status": "FEASIBLE",
+    "emblem_ids": [
+      "DA_18_EmblemVanguard",
+      "DA_18_EmblemBlackthorn",
+      "DA_18_EmblemHunter"
+    ],
+    "candidates": 1,
+    "assignments": [
+      {
+        "instance_index": 0,
+        "emblem_id": "DA_18_EmblemVanguard",
+        "champion_id": "DA_18_Akali_AD",
+        "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+      },
+      {
+        "instance_index": 1,
+        "emblem_id": "DA_18_EmblemBlackthorn",
+        "champion_id": "DA_18_Alune",
+        "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+      },
+      {
+        "instance_index": 2,
+        "emblem_id": "DA_18_EmblemHunter",
+        "champion_id": "DA_KogMaw18_AD",
+        "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+      }
+    ],
+    "cors_origin": "http://127.0.0.1:3002"
+  }
+}

@@ -1,0 +1,3 @@
+# Product scope
+Chinese-first offline hypothetical composition analysis. Users choose a game and versioned fixture ruleset, zero to three emblems, exact board capacity, objective and constraints. Output is a diverse set of legal compositions with assignments, all traits, breakpoints, estimates and solver status. Compare two same-ruleset candidates; analyze retained subsets and legal holders. Separate game datasets and provenance are mandatory. Phase 0/1 only; no current patch claims, match statistics or live assistance.
+Acceptance: real CP-SAT, validated legal responses, all requested routes/pages, brute-force comparison, startup instructions and local end-to-end verification.

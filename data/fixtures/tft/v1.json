@@ -1,0 +1,575 @@
+{
+  "game": "TFT",
+  "patch": "EXAMPLE-1.0",
+  "set": "SYNTHETIC-EXAMPLE",
+  "mode": "offline-fixture",
+  "source": "emblemlab-original-fixture",
+  "imported_at": "2026-10-10T00:00:00Z",
+  "verification_status": "synthetic",
+  "id": "fixture_tft_v1",
+  "zh_CN": "TFT 独立合成示例 v1",
+  "en_US": "TFT synthetic example v1",
+  "allow_duplicate_emblems": true,
+  "allow_unused_emblems": true,
+  "max_same_emblem_per_holder": 1,
+  "champions": [
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_0",
+      "zh_CN": "星灯（示例）",
+      "en_US": "Example tft unit 0",
+      "cost": 1,
+      "traits": [
+        "tft_trait_0",
+        "tft_trait_1"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_1",
+      "zh_CN": "暮刃（示例）",
+      "en_US": "Example tft unit 1",
+      "cost": 2,
+      "traits": [
+        "tft_trait_1",
+        "tft_trait_4"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_2",
+      "zh_CN": "霜羽（示例）",
+      "en_US": "Example tft unit 2",
+      "cost": 3,
+      "traits": [
+        "tft_trait_2",
+        "tft_trait_0"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_3",
+      "zh_CN": "铁枝（示例）",
+      "en_US": "Example tft unit 3",
+      "cost": 4,
+      "traits": [
+        "tft_trait_3"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_4",
+      "zh_CN": "月弦（示例）",
+      "en_US": "Example tft unit 4",
+      "cost": 5,
+      "traits": [
+        "tft_trait_4",
+        "tft_trait_6"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_5",
+      "zh_CN": "曜石（示例）",
+      "en_US": "Example tft unit 5",
+      "cost": 1,
+      "traits": [
+        "tft_trait_5",
+        "tft_trait_2"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_6",
+      "zh_CN": "云织（示例）",
+      "en_US": "Example tft unit 6",
+      "cost": 2,
+      "traits": [
+        "tft_trait_6",
+        "tft_trait_5"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_7",
+      "zh_CN": "烬心（示例）",
+      "en_US": "Example tft unit 7",
+      "cost": 3,
+      "traits": [
+        "tft_trait_0",
+        "tft_trait_1"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_8",
+      "zh_CN": "露锋（示例）",
+      "en_US": "Example tft unit 8",
+      "cost": 4,
+      "traits": [
+        "tft_trait_1",
+        "tft_trait_4"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_9",
+      "zh_CN": "远星（示例）",
+      "en_US": "Example tft unit 9",
+      "cost": 5,
+      "traits": [
+        "tft_trait_2",
+        "tft_trait_0"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_10",
+      "zh_CN": "寒钟（示例）",
+      "en_US": "Example tft unit 10",
+      "cost": 1,
+      "traits": [
+        "tft_trait_3"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_11",
+      "zh_CN": "虹影（示例）",
+      "en_US": "Example tft unit 11",
+      "cost": 2,
+      "traits": [
+        "tft_trait_4",
+        "tft_trait_6"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_12",
+      "zh_CN": "沙航（示例）",
+      "en_US": "Example tft unit 12",
+      "cost": 3,
+      "traits": [
+        "tft_trait_5",
+        "tft_trait_2"
+      ],
+      "item_slots": 3,
+      "available": true
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_unit_13",
+      "zh_CN": "青铜（示例）",
+      "en_US": "Example tft unit 13",
+      "cost": 4,
+      "traits": [
+        "tft_trait_6",
+        "tft_trait_5"
+      ],
+      "item_slots": 3,
+      "available": true
+    }
+  ],
+  "traits": [
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_trait_0",
+      "zh_CN": "星辉",
+      "en_US": "Example tft trait 0",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_trait_1",
+      "zh_CN": "守卫",
+      "en_US": "Example tft trait 1",
+      "thresholds": [
+        {
+          "count": 3,
+          "utility": 15
+        },
+        {
+          "count": 5,
+          "utility": 38
+        },
+        {
+          "count": 7,
+          "utility": 65
+        }
+      ]
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_trait_2",
+      "zh_CN": "织法",
+      "en_US": "Example tft trait 2",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_trait_3",
+      "zh_CN": "游侠",
+      "en_US": "Example tft trait 3",
+      "thresholds": [
+        {
+          "count": 3,
+          "utility": 15
+        },
+        {
+          "count": 5,
+          "utility": 38
+        },
+        {
+          "count": 7,
+          "utility": 65
+        }
+      ]
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_trait_4",
+      "zh_CN": "秘术",
+      "en_US": "Example tft trait 4",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_trait_5",
+      "zh_CN": "突袭",
+      "en_US": "Example tft trait 5",
+      "thresholds": [
+        {
+          "count": 3,
+          "utility": 15
+        },
+        {
+          "count": 5,
+          "utility": 38
+        },
+        {
+          "count": 7,
+          "utility": 65
+        }
+      ]
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_trait_6",
+      "zh_CN": "铸造",
+      "en_US": "Example tft trait 6",
+      "thresholds": [
+        {
+          "count": 2,
+          "utility": 10
+        },
+        {
+          "count": 4,
+          "utility": 28
+        },
+        {
+          "count": 6,
+          "utility": 55
+        }
+      ]
+    }
+  ],
+  "emblems": [
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_emblem_0",
+      "zh_CN": "星辉纹章（示例）",
+      "en_US": "Example tft emblem 0",
+      "trait_id": "tft_trait_0",
+      "banned_holders": [
+        "tft_unit_13"
+      ],
+      "allow_native": false
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_emblem_1",
+      "zh_CN": "守卫纹章（示例）",
+      "en_US": "Example tft emblem 1",
+      "trait_id": "tft_trait_1",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_emblem_2",
+      "zh_CN": "织法纹章（示例）",
+      "en_US": "Example tft emblem 2",
+      "trait_id": "tft_trait_2",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_emblem_3",
+      "zh_CN": "游侠纹章（示例）",
+      "en_US": "Example tft emblem 3",
+      "trait_id": "tft_trait_3",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_emblem_4",
+      "zh_CN": "秘术纹章（示例）",
+      "en_US": "Example tft emblem 4",
+      "trait_id": "tft_trait_4",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_emblem_5",
+      "zh_CN": "突袭纹章（示例）",
+      "en_US": "Example tft emblem 5",
+      "trait_id": "tft_trait_5",
+      "banned_holders": [],
+      "allow_native": false
+    },
+    {
+      "game": "TFT",
+      "patch": "EXAMPLE-1.0",
+      "set": "SYNTHETIC-EXAMPLE",
+      "mode": "offline-fixture",
+      "source": "emblemlab-original-fixture",
+      "imported_at": "2026-10-10T00:00:00Z",
+      "verification_status": "synthetic",
+      "id": "tft_emblem_6",
+      "zh_CN": "铸造纹章（示例）",
+      "en_US": "Example tft emblem 6",
+      "trait_id": "tft_trait_6",
+      "banned_holders": [],
+      "allow_native": false
+    }
+  ],
+  "license_status": "Original synthetic data; no game assets included"
+}

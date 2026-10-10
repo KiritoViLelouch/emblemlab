@@ -1,0 +1,615 @@
+{
+  "verified_at": "2026-10-10T09:57:09.491361+00:00",
+  "results": [
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_Alune.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_ElderDragon.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_Kobuko.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_Sentry.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_Teemo.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_Brambleback18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_Cinderling18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_CrimsonRaptor18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_Gromp18_AP.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_Krug18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_Murkwolf18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_Scuttlecrab18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_Sentinel18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Ahri_splash_centered_27.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Akali_splash_centered_2.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Alistar_splash_centered_40.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Amumu_splash_centered_17.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Aphelios_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Ashe_splash_centered_76.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Azir_splash_centered_5.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Caitlyn_splash_centered_30.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Camille_splash_centered_2.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Cassiopeia_splash_centered_18.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Diana_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Draven_splash_centered_5.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Elise_splash_centered_24.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Ezreal_splash_centered_1.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Fiddlesticks_splash_centered_46.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Gnar_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Hecarim_splash_centered_5.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Ivern_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Karma_splash_centered_70.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Kayle_splash_centered_42.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Kennen_splash_centered_8.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_KhaZix_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_KogMaw_splash_centered_3.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Leblanc_splash_centered_5.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Leona_splash_centered_10.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Lillia_splash_centered_28.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Lux_splash_centered_7.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Malphite_splash_centered_27.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Maokai_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_MasterYi_splash_centered_52.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Morgana_splash_centered_26.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Nidalee_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Ornn_splash_centered_2.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Rakan_splash_centered_9.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Rammus_splash_centered_26.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_RekSai_splash_centered_17.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Rengar_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Sejuani_splash_centered_26.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Sett_splash_centered_38.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Shen_splash_centered_16.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Sivir_splash_centered_61.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Soraka_splash_centered_53.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Taric_splash_centered_1.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Tristana_splash_centered_61.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Varus_splash_centered_9.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Veigar_splash_centered_13.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Vi_splash_centered_39.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Warwick_splash_centered_35.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Xayah_splash_centered_8.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Yorick_splash_centered_30.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Yunara_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Zyra_splash_centered_0.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemBlackthorn.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemBlossom.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemBrawler.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemCoven.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemDefender.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemElderwood.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemExecutioner.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemFae.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemFloraFatalis.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemFloraFatalisAugment.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemHunter.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemInferno.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemInvoker.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemJuggernaut.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemLunar.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemPrimal.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemRapidfire.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemSlayer.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemSpellweaver.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemSprykin.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-item/DA_18_EmblemVanguard.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Adaptor.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_ApexPredator.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Attuned.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Avatar.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Blossom.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_BountySeeker.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Brawler.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Caustic.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Coven.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Defender.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Eclipse.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Elderwood.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_EmeraldAspect.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Executioner.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Fae.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_FloraFatalis.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Greenfather.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Hunter.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Inferno.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Invoker.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Juggernaut.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Lunar.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Monolith.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_OldGod.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_OldGrowth.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Primal.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Rapidfire.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Ravager.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Riftbeast.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Rival.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Solar.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Spellweaver.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Sprykin.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Summoner.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_Vanguard.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-trait/Trait_Icon_18_ZyraOrigin.TFT_Set18.png",
+      "status": 200,
+      "content_type": "image/png"
+    }
+  ]
+}

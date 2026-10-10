@@ -1,0 +1,31 @@
+{
+  "image_reference": null,
+  "source": "User human review of unavailable community screenshot",
+  "records": [
+    {
+      "column": "left",
+      "row": 10,
+      "label": "裁决",
+      "crop_coordinates": null,
+      "canonical_entity_id": null,
+      "verification_status": "human_confirmed_label_only"
+    },
+    {
+      "column": "left",
+      "row": 13,
+      "label": "法师",
+      "crop_coordinates": null,
+      "canonical_entity_id": null,
+      "verification_status": "human_confirmed_label_only"
+    },
+    {
+      "column": "right",
+      "row": 15,
+      "label": "狂战",
+      "crop_coordinates": null,
+      "canonical_entity_id": null,
+      "verification_status": "human_confirmed_label_only"
+    }
+  ],
+  "notes": "Screenshot not supplied; no pixel coordinates or canonical game/version mapping verified. Other AI labels excluded."
+}
