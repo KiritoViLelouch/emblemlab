@@ -1,69 +1,77 @@
 # 朋友测试版发布
 
-状态：**本地验证完成，尚未发布到公网**。当前没有 GitHub 发布凭据，已选择 Render 免费方案，但尚未登录托管账户。
+发布于 2026-10-10，保留现有 Next.js、FastAPI 和 OR-Tools CP-SAT 架构。
 
-## 结构
+- 分享入口：[GitHub Pages](https://kiritovilelouch.github.io/emblemlab/)。
+- 同源备用入口：[Render](https://emblemlab.onrender.com/)，网页与求解 API 一起运行。
+- 源码：[KiritoViLelouch/emblemlab](https://github.com/KiritoViLelouch/emblemlab)，默认分支 `codex/friend-preview`。
+- 只开放固定 TFT 数据集 `tft_set18_18_4_standard`（18.4），74 个棋子实体、36 个羁绊、21 个纹章。该集合包含不同形态实体，74 不是可同时上场的独立英雄数量。目录为 PARTIALLY_VERIFIED，保守禁用尚未支持的规则；不宣称完整游戏模拟或当前实时版本。
+- JCC 未开放；不显示合成 fixtures 为实服数据。评分是静态羁绊启发式，不是胜率。
 
-保留现有 Next.js + FastAPI + OR-Tools CP-SAT。GitHub Pages 只托管静态前端，Python 后端必须独立运行，不能仅上传 HTML 就宣称优化器可用。
+## 实际托管配置
 
-- 前端：GitHub Pages，支持 `/仓库名/` 子路径和各页面直接打开。
-- 后端：`Dockerfile`，Python 3.12，固定依赖，真实 TFT 规范化快照，非 root 用户，单 Uvicorn worker。
-- `render.yaml` 提供可选 Render Free 后端配置；尚未创建服务或产生托管费用。免费服务闲置后休眠、首次请求有冷启动，实际内存/CPU适配仍须部署后验证。
-- 不依赖本机 SQLite、原始大快照、人工上传文件或本机路径。社区导入和统计 API 不对外开放。
+Render 服务 `srv-db52m1bbc2fs73e3s4cg`，Singapore，Docker，**Free**，一个实例、一个 Uvicorn worker；不依赖用户电脑在线。根目录 Dockerfile 先构建 Next 静态网页，再复制到 Python 镜像，由 FastAPI 在 API 路由之后挂载。
 
-## 发布配置
+- `PUBLIC_DEMO=true`
+- `PUBLIC_WEB_DIR=/srv/emblemlab/public`
+- `CORS_ORIGINS=https://kiritovilelouch.github.io`（只有 origin，没有仓库路径）
+- Docker 前端构建：`STATIC_EXPORT=true NEXT_PUBLIC_PUBLIC_DEMO=true NEXT_PUBLIC_API_URL=same-origin`
+- `/health` 为平台健康检查；`PORT` 由平台注入。
+- 服务构建过滤忽略 `docs/**`。本次使用 Render CLI 创建、明确提交部署；没有通过仓库集成验证自动部署，源码更新后应检查并显式触发部署。
+- `render.yaml` 是可选 Blueprint 模板；现有服务由 CLI 创建，名称、地区和分支以本节为准，勿重复创建服务。
 
-GitHub 仓库根目录应为 **emblemlab 目录的内容**，包含 `.github/`、`apps/`、`services/` 和 `data/`。当前父目录的 Git 仓库没有 remote，不能直接将父目录全部推送。
+免费实例闲置会休眠，首次求解可能等待冷启动。测试版每次最多求解 5 秒、返回 5 个候选，单进程最多两次并发；忙时返回 429。请求体解析后拒绝超过 64 KiB 的求解内容，并非入口抗 DDoS 限制。CPU、内存和并发压力测试未执行；仅适合少量朋友试用。
 
-1. 在 GitHub 建立/选定独立仓库（建议 `emblemlab`），推送本目录；保留之前的 `what-to-eat` 网站。
-2. 登录选择的后端托管账户。Render 可从该仓库建立 Blueprint，使用 `render.yaml`；仅选择 Free，不开启付费升级。确认账户预算/费用设置后创建服务。
-3. 设置后端 `CORS_ORIGINS=https://<GitHub用户名>.github.io`，**只有 origin，没有仓库子路径或末尾斜线**。自定义域名需使用其精确 origin。
-4. 后端 `PUBLIC_DEMO=true`，启动命令单 worker，`PORT` 由托管平台注入。
-5. GitHub Settings → Pages → Source 选 GitHub Actions。
-6. GitHub Settings → Secrets and variables → Actions → Variables 添加 `NEXT_PUBLIC_API_URL`，值为实际后端 HTTPS origin，无末尾斜线。此地址公开，不应包含令牌。
-7. 运行 `Publish friend preview` 工作流。工作流自动从 Pages 配置读取 `base_path`，构建 `apps/web/.next-export` 并发布。
-8. 公网验收：分别打开首页、图鉴、数据状态；手机检查；运行一次真实三纹章优化；检查 CORS 和不可用的上传接口。成功后才向朋友提供实际 Pages 地址。
+## GitHub Pages 发布方式
 
-没有 API URL 时导出立即失败，防止发布仍指向朋友自己 `127.0.0.1` 的网页。前端环境变量在构建时固定；后端地址变化后须重新发布前端。回滚使用 GitHub 的旧提交重新运行工作流，后端按托管平台回滚同版本；不要混用规则版本。
+账号 GitHub Actions 构建曾返回：`The job was not started because your account is locked due to a billing issue.` 因此本次改为**本地构建后发布独立静态分支**，未开通付费服务。
 
-## 公开测试范围
+Pages 当前配置为 `build_type=legacy`，来源 `codex/pages-static` 根目录，包含 `.nojekyll`；GitHub Pages 构建 API 确认 `built`，随后实际 HTTPS 页面及资源检查通过。静态发布提交 `aa86ca82521f2ad27070429713ddc417fcaafd8b`；它是独立生成产物，不要合并进源码分支。
 
-设置 `NEXT_PUBLIC_PUBLIC_DEMO=true` 显示测试说明、隐藏合成数据入口和上传/修改表单；JCC 明确未开放。
+更新前端：在 `apps/web` 执行 `npm ci`、`npm run typecheck`、`npm run lint`，再用以下环境构建：
 
-服务端 `PUBLIC_DEMO=true` 独立强制执行：
+```sh
+STATIC_EXPORT=true NEXT_PUBLIC_PUBLIC_DEMO=true NEXT_PUBLIC_BASE_PATH=/emblemlab NEXT_PUBLIC_API_URL=https://emblemlab.onrender.com npm run build
+```
 
-- 目录只返回真实 TFT 数据；即便 `include_synthetic=true` 也不能访问 fixture。
-- 只开放 health、games、catalog、data-health 读取和 solve、holders/rank 求解。
-- 导入、修改、统计和重铸接口均返回 403；无法绕过前端直接调用。
-- 每次最多 5 秒、5 个候选，单进程最多两次并发求解；繁忙时返回 429 和 Retry-After。
-- 请求体解析后拒绝超过 64 KiB 的求解内容。此功能并非抗 DDoS 网关；扩大公开规模前应在托管入口增加速率/请求体限制。
-- 本地未设置公开模式时保留原 API、开发 fixtures 和导入行为。
+将 **`apps/web/.next-export/`** 的内容更新到独立静态分支，保留 `.nojekyll`，推送后检查 Pages 构建和公网资源。不要上传 `.next/`、源码、凭据或数据库。构建变量固定在 JS 中；后端地址变化后必须重新发布前端。
 
-## 已执行验证（2026-10-10）
+`.github/workflows/pages.yml` 保留供未来 Actions 恢复使用；启用前须将 Pages source 改回 GitHub Actions。`NEXT_PUBLIC_API_URL` 仓库变量已设置为实际 Render 地址。当前 Pages 使用静态分支，不依赖此工作流成功。
 
-- 后端完整回归：293 passed（新增公开模式19项），Ruff通过；一个上游 Starlette/httpx 弃用警告。
-- 公开模式实际 CP-SAT 请求连续两次返回候选，不是 mock。
-- 前端 typecheck、lint、静态导出成功；以 `/emblemlab` 子路径构建。
-- 本地 HTTP 验收：6 个静态页面、页面引用的构建资源均返回 200；三枚真实纹章 CP-SAT 求解及跨 origin CORS 实测通过，见 `evidence/public_preview_http.json`。
-- 浏览器视觉/点击验收：本轮浏览器导航超时，未确认通过；不能将 HTTP 资源检查当作视觉验收。
-- 公网 GitHub Actions、Render 容器构建、远程 CPU/内存、HTTPS/CORS、好友访问：**未执行**。
-- 本机 Docker 引擎不可用（Docker CLI info 异常退出），因此未宣称镜像构建或容器测试通过。
+更新后端：推送源码分支，用 `render deploys create srv-db52m1bbc2fs73e3s4cg --commit <完整提交SHA> --confirm`，检查部署为 live，并重新执行公网求解验证。回滚同样明确指定旧提交，前后端规则版本保持一致。
+
+## 公开模式边界
+
+前端显示测试说明，隐藏合成数据入口、上传与修改表单、未开放的重铸分析；JCC 明确标为尚未开放。
+
+服务端独立执行限制，无法绕过前端访问：
+
+- 只提供真实 TFT 目录，即使 `include_synthetic=true` 也不返回 fixture。
+- 开放 health、games、catalog、data-health 读取和 solve、holders/rank 求解。
+- 目录关键规则未验证时拒绝优化；限制超时及候选数量。
+- 导入、修改、统计、重铸和 API 文档接口返回 403。
+- 固定网页及 `/_next/` 资源可 GET/HEAD；HEAD 不开放管理 API。
+- 本地不设置公开模式时保留原 API、开发 fixtures 和导入行为。
+
+## 已执行验证
+
+详见 `evidence/public_cloud_preview_http.json`（公网）及 `evidence/same_origin_preview_http.json`、`evidence/public_preview_http.json`（本地）。公开测试从实际 HTTPS 地址请求，没有 mock 求解器。
+
+- 后端完整回归：`cd services/api && ../../.venv/bin/pytest -q`；294 passed，一个上游 Starlette/httpx 弃用警告。
+- `../../.venv/bin/ruff check app tests` 通过。
+- HEAD 修复定向回归：公开模式 20 项通过，包括静态页面/资源 HEAD 及管理 API 仍关闭。
+- 前端 `npm run typecheck`、`npm run lint`、`npm run build` 通过；另已成功构建 Pages 子路径及 Render 同源静态版本。
+- Render 实际云端 Docker 镜像构建成功，健康检查正常。
+- GitHub Pages 与 Render 各六个页面、各 14 个页面引用资源 HTTPS 200；构建 JS 未包含本机 API 地址。
+- 公网一枚及三枚真实纹章实际 CP-SAT 返回 FEASIBLE 候选。下载同版本目录后独立调用规则校验，复核上场容量、纹章持有者和完整羁绊计数。
+- GitHub origin 的实际 POST CORS 响应与 OPTIONS 预检通过。
+- 公网合成版本、无效纹章、JCC 请求被拒绝；管理、导入、重铸接口关闭。
+
+**未执行：**本轮浏览器视觉/点击验收（浏览器控制持续超时）、真机手机测试、朋友设备访问、负载测试。HTTP 检查不等于这些测试通过。本机 Docker 引擎不可用，未执行本机容器运行；实际 Render 云端构建已执行。
 
 ## 参考
 
-- GitHub Pages 静态托管：https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
-- Next 静态导出：https://nextjs.org/docs/app/guides/static-exports
-- Render Free 限制：https://render.com/docs/free
-- Render Blueprint：https://render.com/docs/blueprint-spec
-
-## 当前托管进展与备用同源部署
-
-已创建并上传到 https://github.com/KiritoViLelouch/emblemlab ，默认分支 `codex/friend-preview`。本地项目现在具有独立 Git 仓库，父目录仓库保持原状。
-
-GitHub Actions 返回：`The job was not started because your account is locked due to a billing issue.` 因此远程构建尚未执行。无需为本次测试开通付费方案。
-
-Dockerfile 同时构建 Next 静态网页，设置 `NEXT_PUBLIC_API_URL=same-origin`，由 FastAPI 在 API 路由之后挂载网页；`PUBLIC_WEB_DIR` 显式启用静态服务。Render 免费服务因此可直接提供完整测试站，不依赖 GitHub Actions 或本机在线。GitHub Pages 独立前端工作流仍保留，可在账号构建恢复后使用。页面和资源放在固定目录，数据快照/数据库不会作为网页文件发布。
-
-公开模式仅放行固定页面和 `/_next/` 资源，管理与写入 API 继续关闭。GitHub Pages 构建仍需实际 HTTPS API；只有同源 Docker 构建使用显式 `same-origin` 配置。
-
-同源方案本地复验：后端 294 passed，Ruff、前端 typecheck/lint/build 通过；6 个页面及 health HTTP 200，真实三纹章求解 FEASIBLE，21 个构建脚本均不含本机 API 地址。见 `evidence/same_origin_preview_http.json`。浏览器视觉验收仍未通过工具执行，不以 HTTP 检查替代。
+- [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+- [Next 静态导出](https://nextjs.org/docs/app/guides/static-exports)
+- [Render Free 限制](https://render.com/docs/free)
+- [Render Blueprint](https://render.com/docs/blueprint-spec)

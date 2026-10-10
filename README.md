@@ -75,4 +75,4 @@ Phase 4 adds `GET /api/v1/reforge/rules` and `POST /api/v1/reforge/analyze`, plu
 
 ## 分享给朋友测试
 
-已添加 GitHub Pages 工作流、独立 Python 后端 Dockerfile 和公开测试模式。配置、实际验证和待上线步骤见 [部署说明](docs/DEPLOYMENT.md)。GitHub Pages 本身不能运行 Python 优化器，需先配置真实 HTTPS API。金铲铲尚未开放。
+已上线：[GitHub 测试网站](https://kiritovilelouch.github.io/emblemlab/)，[Render 备用入口](https://emblemlab.onrender.com/)。Python 求解器独立运行于 Render Free，电脑关机后仍可访问；闲置后的第一次请求可能需要等待冷启动。当前仅开放固定版本 TFT，金铲铲尚未开放。发布方式、实际测试和限制见 [部署说明](docs/DEPLOYMENT.md)。

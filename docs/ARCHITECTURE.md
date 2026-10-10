@@ -21,6 +21,8 @@ The UI opts out of synthetic catalogs by default, handles empty JCC versions, an
 
 ## 朋友公开测试部署（2026-10-10）
 
-用户授权将现有 TFT 版本发布到 GitHub 网站。选择 GitHub Pages 静态导出 + 独立 Python 后端，不替换 CP-SAT、不将结果预计算成演示数据。公开模式用环境变量显式启用，服务端独立限制接口、目录、求解预算和并发；本地默认行为保留。部署文件和未执行的远程验收见 `DEPLOYMENT.md`。托管账户未就绪时不能宣称已上线。
+用户授权将现有 TFT 版本发布到 GitHub 网站。选择 GitHub Pages 静态导出 + 独立 Python 后端，仍使用实际 CP-SAT 求解。公开模式用环境变量显式启用，服务端独立限制接口、目录、求解预算和并发；本地默认行为保留。实际托管及验收见 `DEPLOYMENT.md`。
 
 GitHub Actions 首次运行因账户计费状态被平台拒绝启动（无 job steps）。为保留免费可分享的测试路径，Docker 多阶段构建现有 Next 静态页面，并由 FastAPI 在 API 路由之后提供静态文件，显式配置同源 API；未改变优化器及本地默认行为。新增静态路径隔离测试，避免公开数据库/源代码路径。294 项后端测试、同源真实三纹章 HTTP 求解与 6 页面检查通过；云端状态见部署记录。
+
+最终将本地构建产物发布到独立 `codex/pages-static` 分支，使用 legacy Pages source；Pages 构建实际成功，不依赖受限的源码 Actions 工作流。Render Free 部署 Docker 全栈作为后端和备用网页入口。两个公网入口的六页面及资源、一/三纹章实际求解、GitHub origin CORS、禁用接口均通过 HTTP 验证。允许静态页面/资源 HEAD，管理 API 继续关闭。本轮浏览器点击、视觉及真机验证未执行；详见公网证据 JSON。
