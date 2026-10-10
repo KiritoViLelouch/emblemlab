@@ -96,6 +96,12 @@ def test_same_origin_static_host(client, monkeypatch, tmp_path):
     assert "EmblemLab public preview" in static_client.get("/").text
     assert static_client.get("/catalog/").status_code == 200
     assert static_client.get("/_next/test.js").status_code == 200
+    for path in ("/", "/catalog/", "/_next/test.js"):
+        response = static_client.head(path)
+        assert response.status_code == 200
+        assert response.content == b""
+    assert static_client.head("/docs").status_code == 403
+    assert static_client.head("/api/v1/guides").status_code == 403
     assert static_client.get("/health").json()["status"] == "ok"
     assert static_client.get(f"/api/v1/catalog?ruleset_id={ID}").json()["id"] == ID
     assert static_client.post("/api/v1/data/manual/validate").status_code == 403

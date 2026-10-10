@@ -25,7 +25,9 @@ async def public_preview(request: Request, call_next):
         return await call_next(request)
     path = request.url.path.rstrip("/")
     web_asset = os.getenv("PUBLIC_WEB_DIR") and (path in WEB_PATHS or path.startswith("/_next/"))
-    if request.method == "GET" and (path in READ_PATHS or web_asset):
+    if (request.method == "GET" and (path in READ_PATHS or web_asset)) or (
+        request.method == "HEAD" and web_asset
+    ):
         return await call_next(request)
     if request.method != "POST" or path not in SOLVE_PATHS:
         return JSONResponse({"detail": "朋友测试版未开放此接口"}, status_code=403)
