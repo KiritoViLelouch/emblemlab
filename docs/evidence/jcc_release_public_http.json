@@ -1,0 +1,2227 @@
+{
+  "checked_at": "2026-10-10T12:52:18.261890+00:00",
+  "api": "https://emblemlab.onrender.com",
+  "pages_url": "https://kiritovilelouch.github.io/emblemlab",
+  "pages": {
+    "https://kiritovilelouch.github.io/emblemlab/": {
+      "http": 200,
+      "seconds": 0.8
+    },
+    "https://kiritovilelouch.github.io/emblemlab/catalog/": {
+      "http": 200,
+      "seconds": 0.9
+    },
+    "https://kiritovilelouch.github.io/emblemlab/data/": {
+      "http": 200,
+      "seconds": 0.78
+    },
+    "https://kiritovilelouch.github.io/emblemlab/about/": {
+      "http": 200,
+      "seconds": 0.8
+    },
+    "https://kiritovilelouch.github.io/emblemlab/compare/": {
+      "http": 200,
+      "seconds": 0.79
+    },
+    "https://kiritovilelouch.github.io/emblemlab/guides/": {
+      "http": 200,
+      "seconds": 0.76
+    },
+    "https://emblemlab.onrender.com/": {
+      "http": 200,
+      "seconds": 1.32
+    },
+    "https://emblemlab.onrender.com/catalog/": {
+      "http": 200,
+      "seconds": 1.36
+    },
+    "https://emblemlab.onrender.com/data/": {
+      "http": 200,
+      "seconds": 1.37
+    },
+    "https://emblemlab.onrender.com/about/": {
+      "http": 200,
+      "seconds": 1.0
+    },
+    "https://emblemlab.onrender.com/compare/": {
+      "http": 200,
+      "seconds": 1.35
+    },
+    "https://emblemlab.onrender.com/guides/": {
+      "http": 200,
+      "seconds": 0.94
+    }
+  },
+  "assets": {
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/239-8e0c91a419236658.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/255-60408cf02dacefe1.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/4bd1b696-c023c6e3521b1417.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/619-ba102abea3e3d0e4.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/app/catalog/page-5ed658c68df4f066.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/app/compare/page-5d255124570a7bef.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/app/data/page-bf2e5eca3f7c6d65.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/app/guides/page-f80e53945712305f.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/app/layout-bfbc9bdb6a9cbebb.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/app/page-163255dc509db59a.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/main-app-a79ac22f3da2541f.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/polyfills-42372ed130431b0a.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/chunks/webpack-4fdbc873125e7eeb.js": 200,
+    "https://kiritovilelouch.github.io/emblemlab/_next/static/css/25e9d68717b9d65d.css": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/239-6614e9f07c78a9e3.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/255-09fb0d129bb12f51.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/4bd1b696-c023c6e3521b1417.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/619-ba102abea3e3d0e4.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/app/catalog/page-fb206ca03f5b7c23.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/app/compare/page-0bcc07667042b311.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/app/data/page-7db5c89ac98603f0.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/app/guides/page-1faebbaa681aceb1.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/app/layout-b2704c18950403bf.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/app/page-2cbabe3d229d1f5c.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/main-app-990a2f480a2998c9.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/polyfills-42372ed130431b0a.js": 200,
+    "https://emblemlab.onrender.com/_next/static/chunks/webpack-74c939c87fa0092a.js": 200,
+    "https://emblemlab.onrender.com/_next/static/css/25e9d68717b9d65d.css": 200
+  },
+  "solves": [
+    {
+      "request": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "emblem_ids": [
+          "DA_18_EmblemBrawler",
+          "DA_18_EmblemBlossom",
+          "DA_18_EmblemElderwood"
+        ],
+        "board_size": 8,
+        "top_k": 1,
+        "timeout_seconds": 5,
+        "constraints": {
+          "locked_units": [],
+          "banned_units": [
+            "DA_18_Lux_Coven",
+            "DA_18_Lux_Elderwood",
+            "DA_18_Lux_Fae",
+            "DA_18_Lux_Inferno",
+            "DA_18_Lux_Moonbeam",
+            "DA_18_Lux_Primal",
+            "DA_18_Lux_Sunbeam",
+            "DA_Lux18_Base",
+            "DA_Lux18_Blackthorn",
+            "DA_Lux18_Blossom"
+          ]
+        }
+      },
+      "response": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "status": "FEASIBLE",
+        "enumeration_status": "FEASIBLE",
+        "candidates": [
+          {
+            "id": "candidate_1",
+            "champions": [
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_ElderDragon",
+                "zh_CN": "远古巨龙",
+                "en_US": "Elder Dragon",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_ElderDragon.TFT_Set18.png",
+                "aliases": [],
+                "description": "<Bright>Passive:</Bright> Attacks deal @AttackAoERatio@ damage to enemies adjacent to the target.\r\\n\r\\n<Bright>Active:</Bright> Become invulnerable and fly into the air. On return, stun all enemies for @StunDuration@ seconds, gain @Omnivamp@ Omnivamp, and Ignite them for @IgniteDuration@ seconds.  Ignited enemies take @IgniteMaxHealthDamage@ max Health physical damage per second. Replace this ability with Flame Breath and immediately cast it.\r\\n\r\\n<Bright>Flame Breath:</Bright>  Spew fire at the most enemies in a line through the target, dealing @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% physical damage, reduced by @DamageReductionPerHit@ for each enemy it passes through (minimum @MinimumDamageThreshold@.) Ignite those enemies for @IgniteDuration@ seconds.\r\\n\r\\nElder Dragon Buff: Damaging an enemy below @TraitExecuteThreshold@ Health executes them.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 5,
+                "traits": [
+                  "DA_18_ApexPredator",
+                  "DA_Riftbeast18"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 2,
+                "trait_weights": {
+                  "DA_Riftbeast18": 2
+                },
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Maokai",
+                "zh_CN": "茂凯",
+                "en_US": "Maokai",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Maokai_splash_centered_0.TFT_Set18.png",
+                "aliases": [],
+                "description": "<Bright>Passive:</Bright> After every @DamageMitigatedPerSapling@ damage blocked, a sapling jumps towards a nearby enemy and deals @MagicDamageCalc1@ %i:scaleHealth% magic damage. On death, @SaplingsOnDeath@ saplings jump out.\r\\n\r\\n<Bright>Active:</Bright> Deal @MagicDamageCalc2@ %i:scaleHealth% magic damage to target and restore @HealthCalc1@ %i:scaleAP% + @ActiveMissingHealthHeal@ missing Health.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 5,
+                "traits": [
+                  "DA_18_Maokai_UniqueTrait",
+                  "DA_Juggernaut18"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_MasterYi_AD",
+                "zh_CN": "易",
+                "en_US": "Master Yi",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_MasterYi_splash_centered_52.TFT_Set18.png",
+                "aliases": [],
+                "description": "<Bright>Passive:</Bright> Every third attack is a Double Strike. On takedown, gain a burst of movement speed.\r\\n\r\\n<Bright>Adaptor </Bright>%i:scaleAD%: Double Strikes grant @AttackSpeedCalc1@ %i:scaleAP% stacking Attack Speed.\r\\n\r\\n<dim>Adaptor </dim>%i:scaleAP%<dim>: Double Strikes deal bonus damage and heal.</dim>",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 3,
+                "traits": [
+                  "DA_18_Blossom",
+                  "DA_18_Adaptor"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Sentry",
+                "zh_CN": "苍蓝哨戒",
+                "en_US": "Pebbles",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_Sentry.TFT_Set18.png",
+                "aliases": [],
+                "description": "Begin consuming @PercentManaPerSecond@ max Mana per second and channeling a laser on the target. Each second while casting, deal @MagicDamageCalc1@ %i:scaleAP% magic damage to them and reduce their Magic Resist by @MRReduction@.\r\\n\r\\nTeal Buff: Gain @TraitManaRegenTooltip@ Mana Regen for every @TraitChannelSecondsTooltip@ seconds channeled.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 1,
+                "traits": [
+                  "DA_Riftbeast18",
+                  "DA_18_Invoker"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Yorick",
+                "zh_CN": "约里克",
+                "en_US": "Yorick",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Yorick_splash_centered_30.TFT_Set18.png",
+                "aliases": [],
+                "description": "<Bright>Passive:</Bright> On death, spawn a Spirit Walker with @HealthCalc2@ %i:scaleHealth% max Health which immediately taunts, forcing enemies to attack it.\r\\n\r\\n<Bright>Active:</Bright> Restore @HealthCalc1@ %i:scaleAP% Health and strike the target, dealing @PhysicalDamageCalc1@ %i:scaleAD% physical damage.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 1,
+                "traits": [
+                  "DA_18_Blossom",
+                  "DA_Juggernaut18",
+                  "DA_18_Summoner"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Zyra",
+                "zh_CN": "婕拉",
+                "en_US": "Zyra",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Zyra_splash_centered_0.TFT_Set18.png",
+                "aliases": [],
+                "description": "Spawn @NumPlantsToSpawn@ plants around the battlefield that attack the nearest enemy @ThornSpitterNumAttacks@ times. Each attack deals @MagicDamageCalc1@ %i:scaleAP% magic damage. ",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 4,
+                "traits": [
+                  "DA_18_ZyraUniqueTrait",
+                  "DA_18_Summoner"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_KogMaw18_AD",
+                "zh_CN": "克格莫",
+                "en_US": "Kog'Maw",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_KogMaw_splash_centered_3.TFT_Set18.png",
+                "aliases": [],
+                "description": "<Bright>Adaptor</Bright> %i:scaleAD%<Bright>:</Bright> Launch acid at the target and the other nearest enemy, dealing @PhysicalDamageCalc1@ %i:scaleAD%%i:scaleAP% physical damage. Enemies below @ADBonusDamageThreshold@ max Health take @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% physical damage instead.\r\\n\r\\n<dim>Adaptor</dim>%i:scaleAP%<dim>: Damages enemies over time.</dim>",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 3,
+                "traits": [
+                  "DA_18_Caustic",
+                  "DA_18_Adaptor",
+                  "DA_18_Invoker"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              }
+            ],
+            "assignments": [
+              {
+                "instance_index": 1,
+                "emblem_id": "DA_18_EmblemBlossom",
+                "champion_id": "DA_18_ElderDragon",
+                "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+              },
+              {
+                "instance_index": 2,
+                "emblem_id": "DA_18_EmblemElderwood",
+                "champion_id": "DA_18_Zyra",
+                "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+              },
+              {
+                "instance_index": 0,
+                "emblem_id": "DA_18_EmblemBrawler",
+                "champion_id": "DA_KogMaw18_AD",
+                "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+              }
+            ],
+            "unused_emblem_indices": [],
+            "traits": [
+              {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_LuxUniqueTrait",
+                "name": "自然之力！大元素使",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_DravenUniqueTrait18",
+                "name": "赏金猎人",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Solar",
+                "name": "日蚀骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Sprykin",
+                "name": "约德尔人和朋友",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Adaptor",
+                "name": "魔战士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Coven",
+                "name": "魔女",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  4,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Eclipse",
+                "name": "日月双蚀",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [],
+                "supported": false
+              },
+              {
+                "id": "DA_18_Hunter",
+                "name": "猎人",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Maokai_UniqueTrait",
+                "name": "远古树精",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Battlemage",
+                "name": "魔岩巨兽",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Primal18",
+                "name": "野兽之灵",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Greenfather",
+                "name": "翠神",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Invoker",
+                "name": "神谕",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Rapidfire",
+                "name": "迅捷射手",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Juggernaut18",
+                "name": "主宰",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_AluneUniqueTrait18",
+                "name": "月华神女",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Rival",
+                "name": "宿敌",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [],
+                "supported": false
+              },
+              {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Blackthorn",
+                "name": "黑荆棘",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Executioner",
+                "name": "裁决使",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_ApexPredator",
+                "name": "顶级掠食者",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Riftbeast18",
+                "name": "峡谷野怪",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  10
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Caustic",
+                "name": "帝王斑蝶",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Fae",
+                "name": "花仙子",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Defender",
+                "name": "护卫",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_ZyraUniqueTrait",
+                "name": "荆棘之兴",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Summoner",
+                "name": "召唤师",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 3,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Emerald18",
+                "name": "宝石骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              }
+            ],
+            "score": {
+              "total": 100081,
+              "components": {
+                "active_traits": {
+                  "value": 10,
+                  "weight": 10000,
+                  "contribution": 100000
+                },
+                "breakpoint_utility": {
+                  "value": 10,
+                  "weight": 10,
+                  "contribution": 100
+                },
+                "unit_cost": {
+                  "value": 22,
+                  "weight": -1,
+                  "contribution": -22
+                },
+                "equipped_emblems": {
+                  "value": 3,
+                  "weight": 1,
+                  "contribution": 3
+                }
+              },
+              "kind": "rules_based_estimate",
+              "win_rate": null,
+              "sample_size": null,
+              "ability_compatibility": "unknown",
+              "formation": "unknown",
+              "statistics": "unavailable"
+            },
+            "solver_status": "FEASIBLE",
+            "objective_value": 100081.0,
+            "best_bound": 320687.0
+          }
+        ],
+        "elapsed_seconds": 5.0040813949890435,
+        "assumptions": [
+          "Exact occupied board slots; unique eligible champions with explicit native trait weights",
+          "Unlock/special mechanics unsupported and blocked",
+          "Each subsequent optimum is conditional on diversity exclusions",
+          "Scores are ordinal trait-count heuristics; actual win-rate unavailable",
+          "赛前静态羁绊计数与档位优化；保守装备限制；不含宿敌、日蚀、峡谷野怪 10 档及战斗/经济模拟"
+        ],
+        "data_quality": {
+          "verification_status": "partially_verified",
+          "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+          "patch": "18.4",
+          "set": "18",
+          "mode": "standard",
+          "imported_at": "2026-10-10T09:42:50.177738+00:00",
+          "license_status": "Riot copyrighted static assets; CommunityDragon public extraction; no third-party statistics"
+        }
+      },
+      "http": 200,
+      "seconds": 6.45,
+      "cors_origin": "https://kiritovilelouch.github.io",
+      "board_assignment_and_trait_recount": "passed"
+    },
+    {
+      "request": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "emblem_ids": [
+          "DA_18_EmblemBrawler",
+          "DA_18_EmblemBlossom",
+          "DA_18_EmblemElderwood"
+        ],
+        "board_size": 8,
+        "top_k": 1,
+        "timeout_seconds": 5,
+        "constraints": {
+          "locked_units": [
+            "DA_Lux18_Blossom"
+          ],
+          "banned_units": [
+            "DA_18_Lux_Coven",
+            "DA_18_Lux_Elderwood",
+            "DA_18_Lux_Fae",
+            "DA_18_Lux_Inferno",
+            "DA_18_Lux_Moonbeam",
+            "DA_18_Lux_Primal",
+            "DA_18_Lux_Sunbeam",
+            "DA_Lux18_Base",
+            "DA_Lux18_Blackthorn"
+          ]
+        }
+      },
+      "response": {
+        "game_id": "TFT",
+        "ruleset_id": "tft_set18_18_4_standard",
+        "status": "FEASIBLE",
+        "enumeration_status": "FEASIBLE",
+        "candidates": [
+          {
+            "id": "candidate_1",
+            "champions": [
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Alune",
+                "zh_CN": "拉露恩",
+                "en_US": "Alune",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/DA_18_Alune.TFT_Set18.png",
+                "aliases": [],
+                "description": "Rain @NumMoonshards@ moonshards split among the @NumEnemies@ nearest enemies, dealing @MagicDamageCalc1@ %i:scaleAP% magic damage each.\r\\n\r\\nIf the moon is full, instead crash it onto the board, dealing @MagicDamageCalc2@ %i:scaleAP% magic damage split among all enemies.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 5,
+                "traits": [
+                  "DA_AluneUniqueTrait18",
+                  "DA_18_Lunar",
+                  "DA_18_Spellweaver"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Malphite",
+                "zh_CN": "墨菲特",
+                "en_US": "Malphite",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Malphite_splash_centered_27.TFT_Set18.png",
+                "aliases": [],
+                "description": "Gain @ShieldCalc1@ %i:scaleAP% Shield for @ShieldDuration@ seconds and become petrified. When the shield breaks, unleash a wave of dark energy, dealing @MagicDamageCalc1@ %i:scaleAP%%i:scaleArmor%%i:scaleMR% magic damage to enemies within @AoEHexRange@ hexes.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 4,
+                "traits": [
+                  "DA_18_Blackthorn",
+                  "DA_18_Battlemage"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Maokai",
+                "zh_CN": "茂凯",
+                "en_US": "Maokai",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Maokai_splash_centered_0.TFT_Set18.png",
+                "aliases": [],
+                "description": "<Bright>Passive:</Bright> After every @DamageMitigatedPerSapling@ damage blocked, a sapling jumps towards a nearby enemy and deals @MagicDamageCalc1@ %i:scaleHealth% magic damage. On death, @SaplingsOnDeath@ saplings jump out.\r\\n\r\\n<Bright>Active:</Bright> Deal @MagicDamageCalc2@ %i:scaleHealth% magic damage to target and restore @HealthCalc1@ %i:scaleAP% + @ActiveMissingHealthHeal@ missing Health.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 5,
+                "traits": [
+                  "DA_18_Maokai_UniqueTrait",
+                  "DA_Juggernaut18"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_RekSai",
+                "zh_CN": "雷克塞",
+                "en_US": "Rek'Sai",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_RekSai_splash_centered_17.TFT_Set18.png",
+                "aliases": [],
+                "description": "<bright>Passive:</bright> Restore @HealthCalc2@ %i:scaleHealth% Health each second, tripled for @SpellMultiplierDuration@ seconds after casting.\r\\n\r\\n<bright>Active:</bright> Lunge out of the ground, Stunning adjacent enemies for @KnockupDuration@ second and dealing @MagicDamageCalc1@ %i:scaleAP% magic damage to them.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 1,
+                "traits": [
+                  "DA_18_Blackthorn",
+                  "DA_18_Brawler"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Yorick",
+                "zh_CN": "约里克",
+                "en_US": "Yorick",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Yorick_splash_centered_30.TFT_Set18.png",
+                "aliases": [],
+                "description": "<Bright>Passive:</Bright> On death, spawn a Spirit Walker with @HealthCalc2@ %i:scaleHealth% max Health which immediately taunts, forcing enemies to attack it.\r\\n\r\\n<Bright>Active:</Bright> Restore @HealthCalc1@ %i:scaleAP% Health and strike the target, dealing @PhysicalDamageCalc1@ %i:scaleAD% physical damage.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 1,
+                "traits": [
+                  "DA_18_Blossom",
+                  "DA_Juggernaut18",
+                  "DA_18_Summoner"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_18_Zyra",
+                "zh_CN": "婕拉",
+                "en_US": "Zyra",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Zyra_splash_centered_0.TFT_Set18.png",
+                "aliases": [],
+                "description": "Spawn @NumPlantsToSpawn@ plants around the battlefield that attack the nearest enemy @ThornSpitterNumAttacks@ times. Each attack deals @MagicDamageCalc1@ %i:scaleAP% magic damage. ",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 4,
+                "traits": [
+                  "DA_18_ZyraUniqueTrait",
+                  "DA_18_Summoner"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_Fiddlesticks18",
+                "zh_CN": "费德提克",
+                "en_US": "Fiddlesticks",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Fiddlesticks_splash_centered_46.TFT_Set18.png",
+                "aliases": [],
+                "description": "Reduce the Magic Resist of the @NumTargets@ nearest enemies by @MRReduction@. Then drain life from them over @CastDuration@ seconds, healing for @HealthCalc1@ %i:scaleAP% Health and dealing @MagicDamageCalc1@ %i:scaleAP% magic damage to each over the duration.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 3,
+                "traits": [
+                  "DA_FloraFatalis18",
+                  "DA_18_Defender",
+                  "DA_18_Spellweaver"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {},
+                "exclusive_group": null
+              },
+              {
+                "game": "TFT",
+                "patch": "18.4",
+                "set": "18",
+                "mode": "standard",
+                "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+                "imported_at": "2026-10-10T09:42:50.177738+00:00",
+                "verification_status": "verified",
+                "id": "DA_Lux18_Blossom",
+                "zh_CN": "拉克丝 (灵魂莲华)",
+                "en_US": "Lux (Blossom)",
+                "icon_path": "https://ddragon.leagueoflegends.com/cdn/16.20.1/img/tft-champion/TFT18_Lux_splash_centered_7.TFT_Set18.png",
+                "aliases": [],
+                "description": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@ %i:scaleAP% mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@ %i:scaleAP% magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Blossom Bonus:</bright> The first target hit is dealt @BlossomBonusDamageRatio@ bonus damage.",
+                "verification_evidence": [
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                  "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+                ],
+                "cost": 5,
+                "traits": [
+                  "DA_18_Blossom",
+                  "DA_18_LuxUniqueTrait"
+                ],
+                "item_slots": 3,
+                "available": true,
+                "unlock_condition": null,
+                "board_slots": 1,
+                "trait_weights": {
+                  "DA_18_Blossom": 2
+                },
+                "exclusive_group": "DA_18_Lux"
+              }
+            ],
+            "assignments": [
+              {
+                "instance_index": 1,
+                "emblem_id": "DA_18_EmblemBlossom",
+                "champion_id": "DA_18_Alune",
+                "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+              },
+              {
+                "instance_index": 0,
+                "emblem_id": "DA_18_EmblemBrawler",
+                "champion_id": "DA_Lux18_Blossom",
+                "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+              },
+              {
+                "instance_index": 2,
+                "emblem_id": "DA_18_EmblemElderwood",
+                "champion_id": "DA_Lux18_Blossom",
+                "explanation": "符合当前保守装备限制；原生与纹章取最大贡献，不重复贡献；特殊棋子权重来自版本规则；技能适配未知"
+              }
+            ],
+            "unused_emblem_indices": [],
+            "traits": [
+              {
+                "id": "DA_18_Elderwood",
+                "name": "永恒之森",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_LuxUniqueTrait",
+                "name": "自然之力！大元素使",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Slayer",
+                "name": "狂战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_DravenUniqueTrait18",
+                "name": "赏金猎人",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Solar",
+                "name": "日蚀骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Sprykin",
+                "name": "约德尔人和朋友",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Adaptor",
+                "name": "魔战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Coven",
+                "name": "魔女",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  4,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Eclipse",
+                "name": "日月双蚀",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [],
+                "supported": false
+              },
+              {
+                "id": "DA_18_Hunter",
+                "name": "猎人",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Maokai_UniqueTrait",
+                "name": "远古树精",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Battlemage",
+                "name": "魔岩巨兽",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Primal18",
+                "name": "野兽之灵",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Greenfather",
+                "name": "翠神",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Invoker",
+                "name": "神谕",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Rapidfire",
+                "name": "迅捷射手",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Juggernaut18",
+                "name": "主宰",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Inferno",
+                "name": "地狱火",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  5,
+                  7
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_AluneUniqueTrait18",
+                "name": "月华神女",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Rival",
+                "name": "宿敌",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [],
+                "supported": false
+              },
+              {
+                "id": "DA_18_Vanguard",
+                "name": "重装战士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Brawler",
+                "name": "斗士",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Blackthorn",
+                "name": "黑荆棘",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Executioner",
+                "name": "裁决使",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_ApexPredator",
+                "name": "顶级掠食者",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Riftbeast18",
+                "name": "峡谷野怪",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  10
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Caustic",
+                "name": "帝王斑蝶",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Fae",
+                "name": "花仙子",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Lunar",
+                "name": "月蚀骑士",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Defender",
+                "name": "护卫",
+                "count": 1,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Spellweaver",
+                "name": "法师",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  4,
+                  6
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_ZyraUniqueTrait",
+                "name": "荆棘之兴",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_FloraFatalis18",
+                "name": "绝命花妖",
+                "count": 1,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  1,
+                  2
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Summoner",
+                "name": "召唤师",
+                "count": 2,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  2,
+                  3
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_18_Blossom",
+                "name": "灵魂莲华",
+                "count": 4,
+                "active": true,
+                "level": 1,
+                "utility": 1,
+                "thresholds": [
+                  3,
+                  5,
+                  7,
+                  9,
+                  11
+                ],
+                "supported": true
+              },
+              {
+                "id": "DA_Emerald18",
+                "name": "宝石骑士",
+                "count": 0,
+                "active": false,
+                "level": 0,
+                "utility": 0,
+                "thresholds": [
+                  1
+                ],
+                "supported": true
+              }
+            ],
+            "score": {
+              "total": 120095,
+              "components": {
+                "active_traits": {
+                  "value": 12,
+                  "weight": 10000,
+                  "contribution": 120000
+                },
+                "breakpoint_utility": {
+                  "value": 12,
+                  "weight": 10,
+                  "contribution": 120
+                },
+                "unit_cost": {
+                  "value": 28,
+                  "weight": -1,
+                  "contribution": -28
+                },
+                "equipped_emblems": {
+                  "value": 3,
+                  "weight": 1,
+                  "contribution": 3
+                }
+              },
+              "kind": "rules_based_estimate",
+              "win_rate": null,
+              "sample_size": null,
+              "ability_compatibility": "unknown",
+              "formation": "unknown",
+              "statistics": "unavailable"
+            },
+            "solver_status": "FEASIBLE",
+            "objective_value": 120095.0,
+            "best_bound": 320657.0
+          }
+        ],
+        "elapsed_seconds": 4.997351420111954,
+        "assumptions": [
+          "Exact occupied board slots; unique eligible champions with explicit native trait weights",
+          "Unlock/special mechanics unsupported and blocked",
+          "Each subsequent optimum is conditional on diversity exclusions",
+          "Scores are ordinal trait-count heuristics; actual win-rate unavailable",
+          "赛前静态羁绊计数与档位优化；保守装备限制；不含宿敌、日蚀、峡谷野怪 10 档及战斗/经济模拟"
+        ],
+        "data_quality": {
+          "verification_status": "partially_verified",
+          "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+          "patch": "18.4",
+          "set": "18",
+          "mode": "standard",
+          "imported_at": "2026-10-10T09:42:50.177738+00:00",
+          "license_status": "Riot copyrighted static assets; CommunityDragon public extraction; no third-party statistics"
+        }
+      },
+      "http": 200,
+      "seconds": 6.18,
+      "cors_origin": "https://kiritovilelouch.github.io",
+      "board_assignment_and_trait_recount": "passed"
+    }
+  ],
+  "source_commit": "b22dd3ac58a6b5297c87122fc80c078ae3a6391f",
+  "pages_commit": "9c3082fdcc42f034e7a227baf39edfdac9f27f4a",
+  "render_deploy": "dep-db5376942hec73fib810",
+  "health": {
+    "status": "ok",
+    "solver": "OR-Tools CP-SAT"
+  },
+  "dataset": {
+    "id": "tft_set18_18_4_standard",
+    "patch": "18.4",
+    "champions": 74,
+    "traits": 36,
+    "emblems": 21,
+    "verification_status": "partially_verified"
+  },
+  "data_health": {
+    "catalog_activation_issues": [],
+    "current_patch_verified": false,
+    "statistics_available": false,
+    "assets_included": false,
+    "datasets": [
+      {
+        "game": "TFT",
+        "id": "tft_set18_18_4_standard",
+        "patch": "18.4",
+        "set": "18",
+        "mode": "standard",
+        "source": "Riot Data Dragon 16.20.1 + CommunityDragon 16.20; reviewed Set 18 standard snapshot",
+        "imported_at": "2026-10-10T09:42:50.177738+00:00",
+        "verification_status": "partially_verified",
+        "license_status": "Riot copyrighted static assets; CommunityDragon public extraction; no third-party statistics",
+        "champions": 74,
+        "traits": 36,
+        "emblems": 21,
+        "verification_state": "PARTIALLY_VERIFIED",
+        "data_readiness": {
+          "source_kind": "riot_and_communitydragon",
+          "set_name": "Enchanted Wilds",
+          "resource_patch": "16.20.1",
+          "build_version": "16.20.8248524+branch.releases-16-20.content.release",
+          "last_verified_at": "2026-10-10T09:55:40.739268+00:00",
+          "live_as_of": "2026-10-10",
+          "optimization_enabled": true,
+          "scope": "赛前静态羁绊计数与档位优化；保守装备限制；不含宿敌、日蚀、峡谷野怪 10 档及战斗/经济模拟",
+          "completeness": 0.9594594594594594,
+          "required_champion_ids": [
+            "DA_18_Ahri",
+            "DA_18_Akali_AD",
+            "DA_18_Alistar",
+            "DA_18_Alune",
+            "DA_18_Aphelios",
+            "DA_18_Ashe",
+            "DA_18_Azir",
+            "DA_18_Caitlyn",
+            "DA_18_Camille",
+            "DA_18_Cassiopeia",
+            "DA_18_Diana",
+            "DA_18_ElderDragon",
+            "DA_18_Elise",
+            "DA_18_Ezreal",
+            "DA_18_GnarSmall",
+            "DA_18_Hecarim",
+            "DA_18_Ivern",
+            "DA_18_Kayle",
+            "DA_18_Kennen",
+            "DA_18_KhaZix",
+            "DA_18_Kobuko",
+            "DA_18_LeBlanc",
+            "DA_18_Leona",
+            "DA_18_Lillia",
+            "DA_18_Lux_Coven",
+            "DA_18_Lux_Elderwood",
+            "DA_18_Lux_Fae",
+            "DA_18_Lux_Inferno",
+            "DA_18_Lux_Moonbeam",
+            "DA_18_Lux_Primal",
+            "DA_18_Lux_Sunbeam",
+            "DA_18_Malphite",
+            "DA_18_Maokai",
+            "DA_18_MasterYi_AD",
+            "DA_18_Morgana",
+            "DA_18_Ornn",
+            "DA_18_Rakan",
+            "DA_18_Rammus",
+            "DA_18_RekSai",
+            "DA_18_Rengar",
+            "DA_18_Sejuani",
+            "DA_18_Sentry",
+            "DA_18_Sett",
+            "DA_18_Shen",
+            "DA_18_Sivir",
+            "DA_18_Soraka",
+            "DA_18_Teemo",
+            "DA_18_Tristana",
+            "DA_18_Varus",
+            "DA_18_Veigar",
+            "DA_18_Warwick",
+            "DA_18_Xayah",
+            "DA_18_Yorick",
+            "DA_18_Yunara",
+            "DA_18_Zyra",
+            "DA_Amumu18",
+            "DA_Brambleback18",
+            "DA_Cinderling18",
+            "DA_CrimsonRaptor18",
+            "DA_Draven18",
+            "DA_Fiddlesticks18",
+            "DA_Gromp18_AP",
+            "DA_Karma18",
+            "DA_KogMaw18_AD",
+            "DA_Krug18",
+            "DA_Lux18_Base",
+            "DA_Lux18_Blackthorn",
+            "DA_Lux18_Blossom",
+            "DA_Murkwolf18",
+            "DA_Nidalee18_AP",
+            "DA_Scuttlecrab18",
+            "DA_Sentinel18",
+            "DA_Taric18",
+            "DA_Vi18"
+          ],
+          "snapshots": [
+            {
+              "filename": "content-metadata.json",
+              "url": "https://raw.communitydragon.org/16.20/content-metadata.json",
+              "resolved_url": "https://raw.communitydragon.org/16.20/content-metadata.json",
+              "downloaded_at": "2026-10-10T09:40:34.175738+00:00",
+              "sha256": "ab28af6e79f41825ad5f1f8b9d8f262df1267ce1ce0ea7d77291800484879dcd",
+              "bytes": 74,
+              "last_modified": "Wed, 07 Oct 2026 09:33:56 GMT"
+            },
+            {
+              "filename": "ddragon-champion-en_US.json",
+              "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+              "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+              "downloaded_at": "2026-10-10T09:42:48.715435+00:00",
+              "sha256": "1902dac3354aea538d546f839292f22830f222b772cb86d4f2d9cf67450997ac",
+              "bytes": 83923,
+              "last_modified": "Tue, 06 Oct 2026 21:13:51 GMT"
+            },
+            {
+              "filename": "ddragon-champion-zh_CN.json",
+              "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json",
+              "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json",
+              "downloaded_at": "2026-10-10T09:42:48.983157+00:00",
+              "sha256": "cdf5ef2108a18efef7d6ca369168e6a5031190834d056c0dd68fd8672b2159e8",
+              "bytes": 84754,
+              "last_modified": "Tue, 06 Oct 2026 21:14:08 GMT"
+            },
+            {
+              "filename": "ddragon-item-en_US.json",
+              "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+              "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+              "downloaded_at": "2026-10-10T09:42:49.863630+00:00",
+              "sha256": "d06465d20ae20ebc5d943d2730b8b52c43b556728f25b95d49d7bfe85d4b948e",
+              "bytes": 298943,
+              "last_modified": "Tue, 06 Oct 2026 21:13:51 GMT"
+            },
+            {
+              "filename": "ddragon-item-zh_CN.json",
+              "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json",
+              "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json",
+              "downloaded_at": "2026-10-10T09:42:50.177738+00:00",
+              "sha256": "3c8a8c1d9bf4fb971962878caedf866935d870ed2c8e917fc6414fed1d57b254",
+              "bytes": 299869,
+              "last_modified": "Tue, 06 Oct 2026 21:14:08 GMT"
+            },
+            {
+              "filename": "ddragon-trait-en_US.json",
+              "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-trait.json",
+              "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-trait.json",
+              "downloaded_at": "2026-10-10T09:42:49.247448+00:00",
+              "sha256": "bda4f30af7f81a69d53ea4430189ba1ff5018acbe03740f0ce485a9e26eb08cd",
+              "bytes": 71552,
+              "last_modified": "Tue, 06 Oct 2026 21:13:51 GMT"
+            },
+            {
+              "filename": "ddragon-trait-zh_CN.json",
+              "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-trait.json",
+              "resolved_url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-trait.json",
+              "downloaded_at": "2026-10-10T09:42:49.533891+00:00",
+              "sha256": "88cdbae75e44810b4df45b0d13edadf3bef277f7db347e5ded7baf8b2076f053",
+              "bytes": 72067,
+              "last_modified": "Tue, 06 Oct 2026 21:14:08 GMT"
+            },
+            {
+              "filename": "en_us.json",
+              "url": "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+              "resolved_url": "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+              "downloaded_at": "2026-10-10T09:40:31.404350+00:00",
+              "sha256": "17d19792f662cec404aa071492ae9144a2d2677d2eeb1e0d7d8db9b52a47a9c7",
+              "bytes": 24182680,
+              "last_modified": "Wed, 07 Oct 2026 09:40:57 GMT"
+            },
+            {
+              "filename": "versions.json",
+              "url": "https://ddragon.leagueoflegends.com/api/versions.json",
+              "resolved_url": "https://ddragon.leagueoflegends.com/api/versions.json",
+              "downloaded_at": "2026-10-10T09:40:33.937547+00:00",
+              "sha256": "8816af5251c22a1a99232e2f328c5dd099cd0bc248b6d530ecb36b3328446d4f",
+              "bytes": 5219,
+              "last_modified": "Tue, 06 Oct 2026 21:17:54 GMT"
+            },
+            {
+              "filename": "zh_cn.json",
+              "url": "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json",
+              "resolved_url": "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json",
+              "downloaded_at": "2026-10-10T09:40:32.035682+00:00",
+              "sha256": "569a7d0d97d09e2de005b93645efa148658037cced1ecd3f0ba316de438b5855",
+              "bytes": 24303583,
+              "last_modified": "Wed, 07 Oct 2026 09:40:53 GMT"
+            }
+          ],
+          "rule_checks": [
+            {
+              "id": "set_patch_mode",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4/",
+                "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+              ],
+              "notes": "Explicit Set 18 / TFTSet18 / standard, gameplay 18.4, resources 16.20.1. Never select max set ID."
+            },
+            {
+              "id": "canonical_roster_cost_locales",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json"
+              ],
+              "notes": "Exact official standard shop roster and CommunityDragon costs/native trait IDs cross-checked in en_US/zh_CN."
+            },
+            {
+              "id": "native_trait_relationships",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+                "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json"
+              ],
+              "notes": "Scoped bilingual trait references; unsupported Rival units disabled."
+            },
+            {
+              "id": "monotonic_trait_thresholds",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json"
+              ],
+              "notes": "Read minUnits, identical in both locales. Rival and Eclipse excluded."
+            },
+            {
+              "id": "emblem_associations",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json"
+              ],
+              "notes": "Explicit reviewed canonical mapping with exact official English trait+Emblem label and pinned Chinese label. Source associatedTraits is empty, not silently trusted."
+            },
+            {
+              "id": "elder_dragon_weight_slots",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+              ],
+              "notes": "Two board slots; Riftbeast contribution is 2 total, not 3. Corroborated current trait description."
+            },
+            {
+              "id": "avatar_weight_and_exclusivity",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+              ],
+              "notes": "Chosen origin counts twice; one Lux form per board under conservative shop transformation profile. Unselected base unavailable."
+            },
+            {
+              "id": "source_snapshots_and_icons",
+              "status": "VERIFIED",
+              "essential": true,
+              "evidence": [
+                "https://raw.communitydragon.org/16.20/content-metadata.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-champion.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-champion.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-item.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-item.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/tft-trait.json",
+                "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/tft-trait.json",
+                "https://raw.communitydragon.org/16.20/cdragon/tft/en_us.json",
+                "https://ddragon.leagueoflegends.com/api/versions.json",
+                "https://raw.communitydragon.org/16.20/cdragon/tft/zh_cn.json"
+              ],
+              "notes": "Pinned snapshot digests and official per-version icon references; HTTP verification recorded separately."
+            },
+            {
+              "id": "native_and_duplicate_equipment",
+              "status": "UNVERIFIED",
+              "essential": false,
+              "evidence": [],
+              "notes": "Current extracted item incompatibility/unique fields are incomplete. Preserve conservative optimizer restriction: no native holder, <=1 same trait emblem per holder; identical instances may go to distinct holders. This is a safe search restriction, not a claim of exhaustive game legality."
+            },
+            {
+              "id": "riftbeast_ten_capacity",
+              "status": "UNVERIFIED",
+              "essential": false,
+              "evidence": [
+                "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+              ],
+              "notes": "Overview +1 slot versus snapshot TeamSize=2. Reject Riftbeast count >=10 until independently verified."
+            },
+            {
+              "id": "eclipse_activation",
+              "status": "UNSUPPORTED",
+              "essential": false,
+              "evidence": [],
+              "notes": "Missing minUnits/activation predicate. Prevent Lunar+Solar boards and do not score Eclipse."
+            },
+            {
+              "id": "rival_evolution",
+              "status": "UNSUPPORTED",
+              "essential": false,
+              "evidence": [
+                "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+              ],
+              "notes": "Non-monotonic levels and acquired traits depend on takedown history. Rengar/KhaZix disabled."
+            },
+            {
+              "id": "flora_fatalis_augment_emblem_availability",
+              "status": "UNVERIFIED",
+              "essential": false,
+              "evidence": [],
+              "notes": "Duplicate canonical Augment emblem with uncertain acquisition context: imported for reference, disabled."
+            },
+            {
+              "id": "combat_economy_augments_wisps",
+              "status": "UNSUPPORTED",
+              "essential": false,
+              "evidence": [
+                "https://teamfighttactics.leagueoflegends.com/en-sg/news/game-updates/enchanted-wilds-overview/"
+              ],
+              "notes": "Combat effects, summons, permanent evolution, star levels, augmentation and Wisp changes are outside static precombat trait-count profile."
+            }
+          ],
+          "unsupported_mechanics": [
+            "宿敌击杀进化：卡兹克、雷恩加尔禁用",
+            "日蚀：触发条件缺失；月蚀骑士与日蚀骑士同场禁用",
+            "Riftbeast 10 的人口加成存在来源冲突，计数限制为 9",
+            "化身：必须选择具体形态；同场仅允许一个拉克丝形态",
+            "原生/重复装备限制沿用保守搜索策略，尚未独立验证所有游戏装备例外",
+            "Flora Fatalis Augment 纹章获取条件不明，禁用",
+            "战斗效果、召唤物战力、星级、强化符文、精灵、经济与永久成长不建模"
+          ],
+          "excluded_entities": [
+            {
+              "id": "TFT_BlueGolem",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT9_SLIME_Crab",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_TrainingDummy",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_Voidspawn",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_Krug",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_Murkwolf",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_MurkwolfMini",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_Razorbeak",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_RazorbeakMini",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_RiftHerald",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_ElderDragon",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT5_EmblemArmoryKey",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_ArmoryKeyCompleted",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_ArmoryKeyComponent",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_ArmoryKeyOrnn",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT_ArmoryKeySupport",
+              "reason": "非所选标准模式商店棋子"
+            },
+            {
+              "id": "TFT6_MercenaryChest",
+              "reason": "非所选标准模式商店棋子"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "head_checks": {
+    "/": 200,
+    "/api/v1/guides/import": 403
+  },
+  "blocked_checks": {
+    "POST /api/v1/guides/import": 403,
+    "POST /api/v1/reforge/analyze": 403,
+    "GET /docs": 403,
+    "GET /api/v1/catalog?game_id=TFT&ruleset_id=fixture_tft_v1": 422,
+    "POST /api/v1/solve": 422
+  },
+  "games": [
+    {
+      "id": "TFT",
+      "name": "TFT 国际服",
+      "versions": [
+        {
+          "patch": "18.4",
+          "ruleset_id": "tft_set18_18_4_standard",
+          "name": "Set 18 · Enchanted Wilds · 已验证计数范围",
+          "set": "18",
+          "mode": "standard",
+          "verification_state": "PARTIALLY_VERIFIED",
+          "optimization_enabled": true
+        }
+      ]
+    },
+    {
+      "id": "JCC",
+      "name": "金铲铲之战",
+      "versions": []
+    }
+  ],
+  "cors_preflight": 200,
+  "public_browser_acceptance": "NOT_EXECUTED: existing Pages tab reload/DOM snapshot and fresh Render tab timed out in supported browser controller. Local browser checks recorded separately.",
+  "bundle_feature_checks": {
+    "https://kiritovilelouch.github.io/emblemlab": {
+      "paired_lux_button": true,
+      "lux_exclusive_group": true,
+      "local_api_absent": true
+    },
+    "https://emblemlab.onrender.com": {
+      "paired_lux_button": true,
+      "lux_exclusive_group": true,
+      "local_api_absent": true
+    }
+  }
+}

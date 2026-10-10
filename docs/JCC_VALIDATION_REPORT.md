@@ -41,4 +41,14 @@ Genuine JCC three-emblem, actual-JCC expected counts, legal-holder correctness, 
 
 Owner next action: obtain a versioned, redistribution-authorized JCC static export (DataTFT content-authorization contact or another legitimate provider), including the missing rules listed in JCC_RULESET_COVERAGE.md; supply source/version/permission evidence and arrange independent review. Then run the implemented import/check/activate workflow, genuine-data integration/browser tests, commit artifacts and deploy. Do not remove the JCC unavailable warning merely to appear finished.
 
-Public release verification is recorded separately below after actual deployment; local tests alone do not prove a successful release.
+## Public release verification — executed 2026-10-10
+
+Status: software workflow and Lux changes **DEPLOYED**, real JCC **BLOCKED**, TFT fixed-version scope **RESTRICTED**. Render reports deployment `dep-db5376942hec73fib810` live at source commit `b22dd3ac58a6b5297c87122fc80c078ae3a6391f`; GitHub Pages reports artifact `9c3082fdcc42f034e7a227baf39edfdac9f27f4a` built.
+
+Actual HTTPS checks passed on https://kiritovilelouch.github.io/emblemlab/ and https://emblemlab.onrender.com/: six pages and fourteen referenced assets per site; bundled JavaScript contains no localhost API URL. The current backend returns the new empty `catalog_activation_issues` list, real TFT 18.4 catalog 74/36/21, and no approved JCC versions even with `include_synthetic=true`.
+
+Two actual Render CP-SAT POST requests used three genuine TFT emblems (Brawler, Blossom, Elderwood), population 8. Both returned **FEASIBLE**, not OPTIMAL. The first banned all Lux forms; the second locked Blossom Lux and banned alternatives. Each returned the appropriate board. Independently recounted each trait from native weights and emblem assignments, checked population and complete assignments, and ran RuleEvaluator legality checks. GitHub-origin POST CORS and OPTIONS preflight passed. Public invalid/cross-game/synthetic requests returned 422; imports/admin/reforge remained 403; public page HEAD was 200 and private API HEAD 403.
+
+Evidence: `evidence/jcc_release_public_http.json` contains actual requests, responses and statuses. This HTTP suite does not prove public frontend click-through. Existing Pages-tab reload and DOM inspection and a fresh same-browser Render-tab attempt timed out. **Public browser click/visual acceptance was not completed**. The local browser results above remain the only executed visual/mobile acceptance. No true-device, friend-device or load testing was performed. No real JCC acceptance test was possible.
+
+After static publication, restored a standard local production build, restarted frontend/backend, and checked localhost:3000, backend health and registry health returned HTTP 200 with no activation issues. No approved JCC artifact was installed. Activation CLI uses POSIX file locking and was tested locally on macOS; its module loads in the Linux deployment. Linux promotion locking and Windows operator execution have not been separately tested.

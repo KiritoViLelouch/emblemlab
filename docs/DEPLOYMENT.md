@@ -46,7 +46,7 @@ STATIC_EXPORT=true NEXT_PUBLIC_PUBLIC_DEMO=true NEXT_PUBLIC_BASE_PATH=/emblemlab
 
 服务端独立执行限制，无法绕过前端访问：
 
-- 只提供真实 TFT 目录，即使 `include_synthetic=true` 也不返回 fixture。
+- 只提供已审核且通过激活校验的真实目录；目前只有 TFT。即使 `include_synthetic=true` 也不返回 fixture。
 - 开放 health、games、catalog、data-health 读取和 solve、holders/rank 求解。
 - 目录关键规则未验证时拒绝优化；限制超时及候选数量。
 - 导入、修改、统计、重铸和 API 文档接口返回 403。
@@ -83,3 +83,12 @@ Feature branch `codex/jcc-catalog-activation` starts at `ade8717`; pre-change Re
 The image now includes `data/active/` and `data/approved/`. Promote JCC only offline after explicit review; commit artifacts, registry and history together. No runtime SQLite activation or ephemeral Render write is required. JCC stays unavailable while the registry is empty. Public mode permits approved games and continues to reject imports/admin/statistics/reforge.
 
 Code rollback: explicitly deploy Render commit `43f448d0fee19c8de3d701aa593acc04aadde822`. Pages rollback: restore files from `aa86ca82521f2ad27070429713ddc417fcaafd8b` into a **new** `codex/pages-static` commit and push normally (do not reset or force-push history). Registry-only rollback uses the offline command in JCC_IMPORT_GUIDE.md followed by a normal source commit/deploy.
+
+
+### 2026-10-10 JCC workflow / Lux update — deployed
+
+Source `b22dd3ac58a6b5297c87122fc80c078ae3a6391f` was pushed by normal fast-forward to `codex/friend-preview`. Render deployment `dep-db5376942hec73fib810` is **live**. Prebuilt Pages artifact `9c3082fdcc42f034e7a227baf39edfdac9f27f4a` on `codex/pages-static` is **built**. GitHub Actions billing lock was not changed; static branch publication remains the release path.
+
+New actual verification: 333 backend tests, Ruff, frontend typecheck/lint/build, 5 Lux policy tests, same-origin and Pages exports passed. Local browser clicked real three-emblem paired Lux solves, saved comparison, and checked desktop/390/412px layouts. Public HTTPS suite checked both sites' six pages/fourteen assets, two real constrained Lux solves, independent trait recount, CORS, data registry and public-mode boundaries. See `evidence/jcc_release_public_http.json` and `JCC_VALIDATION_REPORT.md`.
+
+Public browser control timed out, so public click/visual acceptance remains **not executed**. Genuine JCC data remains **BLOCKED**, zero active JCC records; no synthetic catalog was activated. TFT remains a reviewed restricted 18.4 snapshot, not a claim of current live-patch or every mechanic support. The rollback revisions above remain valid.
